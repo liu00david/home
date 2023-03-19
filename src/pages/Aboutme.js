@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Login() {
+function Aboutme() {
   return (
     <div>
       <h1>This is my new page num 2 for logging in.</h1>
@@ -8,4 +8,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Aboutme;

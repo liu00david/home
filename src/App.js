@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './App.css';
 
 import Homepage from './pages/Homepage';
-import Login from './pages/Login';
+import Aboutme from './pages/Aboutme';
 import Notfound from './pages/Notfound';
 
 const App = () => {
@@ -11,8 +11,8 @@ const App = () => {
     <Router>
       <div>
         <Routes>
-          <Route exact path="/davidwideweb" element={<Homepage/>} />
-          <Route exact path="/davidwideweb/login" element={<Login/>} />
+          <Route exact path="/home" element={<Homepage/>} />
+          <Route exact path="/home/aboutme" element={<Aboutme/>} />
           <Route path="*" element={<Notfound/>}/>
         </Routes>
       </div>
