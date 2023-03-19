@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "237229a7a8a001716c2b",
+    "revision": "7da0a7af9b4d2501be5c",
     "url": "/davidwideweb/static/css/main.99074e9a.chunk.css"
   },
   {
-    "revision": "237229a7a8a001716c2b",
-    "url": "/davidwideweb/static/js/main.237229a7.chunk.js"
+    "revision": "7da0a7af9b4d2501be5c",
+    "url": "/davidwideweb/static/js/main.7da0a7af.chunk.js"
   },
   {
     "revision": "3bc8ac50b02e373cc067",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/davidwideweb/static/js/runtime~main.d3146ee5.js"
   },
   {
-    "revision": "b7c35a66422237c44e2db35d171c5eb8",
+    "revision": "90ee7547b36081fa394a05342bada271",
     "url": "/davidwideweb/index.html"
   }
 ];
