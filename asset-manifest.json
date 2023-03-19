@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/davidwideweb/static/css/main.073c9b0a.css",
+    "main.css": "/davidwideweb/static/css/main.87bca214.css",
     "main.js": "/davidwideweb/static/js/main.ee5f763f.js",
     "static/js/787.25c4bb7b.chunk.js": "/davidwideweb/static/js/787.25c4bb7b.chunk.js",
     "static/media/logo.svg": "/davidwideweb/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/davidwideweb/index.html",
-    "main.073c9b0a.css.map": "/davidwideweb/static/css/main.073c9b0a.css.map",
+    "main.87bca214.css.map": "/davidwideweb/static/css/main.87bca214.css.map",
     "main.ee5f763f.js.map": "/davidwideweb/static/js/main.ee5f763f.js.map",
     "787.25c4bb7b.chunk.js.map": "/davidwideweb/static/js/787.25c4bb7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
+    "static/css/main.87bca214.css",
     "static/js/main.ee5f763f.js"
   ]
 }
