@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Navbar() {
@@ -6,8 +6,8 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
-            DAVID navbar
+          <Link to="/home/aboutme" className="navbar-logo">
+            DAVID navbar aboutme
           </Link>
         </div>
       </nav>
