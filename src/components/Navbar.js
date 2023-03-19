@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            DAVID <i className='fab fa-typo3' />
+            DAVID navbar
           </Link>
         </div>
       </nav>
