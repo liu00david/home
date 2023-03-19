@@ -5,10 +5,12 @@ import './App.css';
 import Homepage from './pages/Homepage';
 import Aboutme from './pages/Aboutme';
 import Notfound from './pages/Notfound';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
     <Router>
+      <Navbar />
       <div>
         <Routes>
           <Route exact path="/home" element={<Homepage/>} />
