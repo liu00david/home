@@ -6,7 +6,7 @@ function Homepage() {
     <div>
       <h1>Welcome to my website!</h1>
       <h2>This is my second line.</h2>
-      <p>Check out <Link to="/Login">This is my second page</Link>.</p>
+      <p>Check out <Link to="/davidwideweb/login">This is my second page</Link>.</p>
     </div>
   );
 }
