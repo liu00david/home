@@ -1,15 +1,15 @@
 {
-  "main.css": "/davidwideweb/static/css/main.99074e9a.chunk.css",
-  "main.js": "/davidwideweb/static/js/main.7da0a7af.chunk.js",
-  "main.js.map": "/davidwideweb/static/js/main.7da0a7af.chunk.js.map",
-  "static/js/1.3bc8ac50.chunk.js": "/davidwideweb/static/js/1.3bc8ac50.chunk.js",
-  "static/js/1.3bc8ac50.chunk.js.map": "/davidwideweb/static/js/1.3bc8ac50.chunk.js.map",
-  "static/js/2.4ae1313b.chunk.js": "/davidwideweb/static/js/2.4ae1313b.chunk.js",
-  "static/js/2.4ae1313b.chunk.js.map": "/davidwideweb/static/js/2.4ae1313b.chunk.js.map",
-  "runtime~main.js": "/davidwideweb/static/js/runtime~main.d3146ee5.js",
-  "runtime~main.js.map": "/davidwideweb/static/js/runtime~main.d3146ee5.js.map",
-  "static/css/main.99074e9a.chunk.css.map": "/davidwideweb/static/css/main.99074e9a.chunk.css.map",
-  "index.html": "/davidwideweb/index.html",
-  "precache-manifest.ef97c7cf91d9e80af745728f89f00d0d.js": "/davidwideweb/precache-manifest.ef97c7cf91d9e80af745728f89f00d0d.js",
-  "service-worker.js": "/davidwideweb/service-worker.js"
+  "main.css": "/home/static/css/main.e8e9118a.chunk.css",
+  "main.js": "/home/static/js/main.0074ac19.chunk.js",
+  "main.js.map": "/home/static/js/main.0074ac19.chunk.js.map",
+  "static/js/1.3bc8ac50.chunk.js": "/home/static/js/1.3bc8ac50.chunk.js",
+  "static/js/1.3bc8ac50.chunk.js.map": "/home/static/js/1.3bc8ac50.chunk.js.map",
+  "static/js/2.3c25bbe0.chunk.js": "/home/static/js/2.3c25bbe0.chunk.js",
+  "static/js/2.3c25bbe0.chunk.js.map": "/home/static/js/2.3c25bbe0.chunk.js.map",
+  "runtime~main.js": "/home/static/js/runtime~main.5e5e492c.js",
+  "runtime~main.js.map": "/home/static/js/runtime~main.5e5e492c.js.map",
+  "static/css/main.e8e9118a.chunk.css.map": "/home/static/css/main.e8e9118a.chunk.css.map",
+  "index.html": "/home/index.html",
+  "precache-manifest.35311d6005c3dc32297e71af0a789a36.js": "/home/precache-manifest.35311d6005c3dc32297e71af0a789a36.js",
+  "service-worker.js": "/home/service-worker.js"
 }
