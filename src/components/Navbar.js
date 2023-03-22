@@ -1,21 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
 
 function Navbar() {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/home">Home</Link>
-        </li>
-        <li>
-          <Link to="/aboutme">About</Link>
-        </li>
-        <li>
-          <Link to="/funstuff">Fun Stuff</Link>
-        </li>
-      </ul>
-    </nav>
+    <Nav defaultActiveKey="/home" as="ul">
+    <Nav.Item as="li">
+      <Nav.Link href="/home">Home</Nav.Link>
+    </Nav.Item>
+    <Nav.Item as="li">
+      <Nav.Link eventKey="/aboutme">About me</Nav.Link>
+    </Nav.Item>
+    <Nav.Item as="li">
+      <Nav.Link eventKey="/funstuff">Fun stuff</Nav.Link>
+    </Nav.Item>
+    </Nav>
   );
 }
 
