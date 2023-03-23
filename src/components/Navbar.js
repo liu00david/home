@@ -8,10 +8,10 @@ function Navbar() {
       <Nav.Link href="/home">Home</Nav.Link>
     </Nav.Item>
     <Nav.Item as="li">
-      <Nav.Link eventKey="/aboutme">About me</Nav.Link>
+      <Nav.Link eventKey="/home/aboutme">About me</Nav.Link>
     </Nav.Item>
     <Nav.Item as="li">
-      <Nav.Link eventKey="/funstuff">Fun stuff</Nav.Link>
+      <Nav.Link eventKey="/home/funstuff">Fun stuff</Nav.Link>
     </Nav.Item>
     </Nav>
   );
