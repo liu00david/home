@@ -16,18 +16,13 @@ const HeroSection = () => {
         </HeroBg>
         <HeroContent>
             <HeroH1>
-                My H1 header for my page, hero </HeroH1>
+                hi this page is still in development spare me</HeroH1>
             <HeroP>
-                My hero paragraph.
+                this is a paragraph :D
             </HeroP>
             <HeroBtnWrapper>
-                <Button to="signup" onMouseEnter={onHover}
-                onMouseLeave={onHover}
-                primary='true'
-                dark='true'
-                >
-                    Get Started {hover ? <ArrowForward /> : <ArrowRight
-                    />}
+                <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+                    continue... {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>
