@@ -16,10 +16,10 @@ export const Button = styled(Link)`
     justify-content: feComponentTransfer;
     align-items: center;
     transition: all 0.2s ease-in-out;
-    font-weight: 10;
+    font-weight: 300;
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? '#fff' : '#01BF71')}
+        background: ${({primary}) => (primary ? '#def' : '#000')}
     }
 `
