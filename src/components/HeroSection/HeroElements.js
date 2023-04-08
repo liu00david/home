@@ -10,8 +10,20 @@ export const HeroContainer = styled.div`
     height: 800px;
     position: relative;
     z-index: 1;
+
+    :before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background:
+            linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.05) 100%),
+            linear-gradient(0deg, rgba(0.8,0,0,0.5) 0%, transparent 30%);
+        z-index: 2;
+    }
 `
-/* Add :before styles */
 
 export const HeroBg = styled.div`
     position: absolute;
@@ -36,10 +48,11 @@ export const HeroContent = styled.div`
     z-index: 3;
     max-width: 1200px;
     position: absolute;
-    padding: 8x 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
 `
 
 export const HeroH1 = styled.h1`
@@ -62,6 +75,7 @@ export const HeroP = styled.p`
     font-size: 24px;
     text-align: center;
     max-width: 600px;
+    padding: 10px;
 
     @media screen and (max-width: 768px) {
         font-size: 24px;
