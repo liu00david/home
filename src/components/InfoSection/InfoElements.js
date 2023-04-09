@@ -79,4 +79,19 @@ export const Subtitle = styled.p`
   line-height: 24px;
   color: ${({darkText}) => (darkText ? "#010606" : '#fff')};
 `
-// https://youtu.be/Nl54MJDR2p8?t=7097
+
+export const BtnWrap = styled.div`
+  display: flex;
+  justify-content: flex-start;
+`
+
+export const ImgWrap = styled.div`
+  max-width: 555px;
+  height: 100%;
+`
+
+export const Img = styled.img`
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding-right: 0;
+`
