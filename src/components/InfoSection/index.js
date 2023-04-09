@@ -14,7 +14,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
             <Column1>
             <TextWrapper>
             <TopLine>{topLine}</TopLine>
-            <Heading lightText='lightText'>{Heading}</Heading>
+            <Heading lightText='lightText'>{headline}</Heading>
             <Subtitle darkText={darkText}>{description}</Subtitle>
             <BtnWrap>
               <Button to="home">{buttonLabel}</Button>
