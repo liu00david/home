@@ -19,8 +19,8 @@ export const HeroContainer = styled.div`
         right: 0;
         bottom: 0;
         background:
-            linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.05) 100%),
-            linear-gradient(0deg, rgba(0.8,0,0,0.5) 0%, transparent 30%);
+            linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%),
+            linear-gradient(0deg, rgba(0.8,0,0,1) 0%, transparent 45%);
         z-index: 2;
     }
 `
