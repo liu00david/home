@@ -3,23 +3,30 @@ import styled from 'styled-components'
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({lightBg}) => (lightBg ? '#bfc5c5' : '#000')};
-  padding: 0px 50px;
+  padding: 0 50px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* margin-top: -80px; */
 
-  @media screen and (max-width: 768px) {
-    padding: 50px 15px;
-  }
+  /* @media screen and (max-height: 500px) {
+    height: 130vh;
+  } */
 `
 
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 100vh;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 1vh;
   padding: 0 24px;
-  justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    padding: 5vh 5vw;
+  }
 `
 
 export const InfoRow = styled.div`
@@ -34,21 +41,20 @@ export const InfoRow = styled.div`
 `
 
 export const Column1 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
+  margin: 15px;
+  padding: 15px;
   grid-area: col1;
 `
 
 export const Column2 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
+  margin: 15px;
+  padding: 15px;
   grid-area: col2;
 `
 
 export const TextWrapper = styled.div`
-  max-width: 540px;
-  padding-top: 0;
-  padding-bottom: 60px;
+  max-width: 800px;
+  padding-bottom: 20px;
 `
 
 export const TopLine = styled.p`
@@ -87,13 +93,15 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
-  max-width: 400px;
+  max-width: 50vh;
+  max-height: 42vh;
   height: 100%;
-  padding: 10px;
   display: flex;
 
   @media screen and (max-width: 768px) {
-    margin-top: -20vh;
+    max-width: 35vh;
+    max-height: 20vh;
+    margin-top: -3vh;
   }
 `
 

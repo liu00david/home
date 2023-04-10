@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 0px;
     height: 100vh;
     position: relative;
     z-index: 1;
@@ -79,11 +79,11 @@ export const HeroP = styled.p`
     padding: 10px;
 
     @media screen and (max-width: 768px) {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 18px;
+        font-size: 16px;
     }
 `
 
