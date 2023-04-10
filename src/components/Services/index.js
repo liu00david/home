@@ -25,6 +25,11 @@ const Services = () => {
           <ServicesH2>NUMBA 3</ServicesH2>
           <ServicesP>I will do this for you 3</ServicesP>
         </ServicesCard>
+        <ServicesCard>
+          <ServicesIcon src={Icon3}/>
+          <ServicesH2>NUMBA 4</ServicesH2>
+          <ServicesP>lastly, this thing.</ServicesP>
+        </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
   )
