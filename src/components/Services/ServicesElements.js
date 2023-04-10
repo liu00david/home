@@ -54,7 +54,7 @@ export const ServicesCard = styled.div`
 
   @media screen and (max-width: 768px) {
     height: 28vh;
-    width: 22vh;
+    width: 20vh;
   }
 `
 
