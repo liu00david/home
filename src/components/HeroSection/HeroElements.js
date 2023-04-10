@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    height: 100vh;
     position: relative;
     z-index: 1;
 
@@ -42,6 +42,7 @@ export const VideoBg = styled.video`
     -o-object-fit: cover;
     object-fit: cover;
     background: #232a34;
+    z-index: -1;
 `
 
 export const HeroContent = styled.div`
@@ -51,8 +52,8 @@ export const HeroContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 30px;
+    /* background-color: rgba(137, 150, 155, 0.5); */
 `
 
 export const HeroH1 = styled.h1`

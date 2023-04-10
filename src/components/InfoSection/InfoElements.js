@@ -2,18 +2,19 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+  background: ${({lightBg}) => (lightBg ? '#a0b0b0' : '#010606')};
+  padding: 0 50px;
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 100px 15px;
   }
 `
 
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
-  width:100%;
+  height: 100vh;
+  width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
@@ -51,7 +52,7 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-  color: #01bf71;
+  color: ${({lightText}) => (lightText ? '#CBC3E3' : "#5c008d")};
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -96,4 +97,3 @@ export const Img = styled.img`
   padding-right: 0;
 `
 
-// https://youtu.be/Nl54MJDR2p8?t=7430
