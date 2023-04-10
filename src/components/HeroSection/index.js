@@ -22,11 +22,11 @@ const HeroSection = () => {
             <HeroH1>
                 a website</HeroH1>
             <HeroP>
-                this is a work in progress :D
+                work in progress :D
             </HeroP>
             <HeroBtnWrapper>
-                <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
-                    continue {hover ? <ArrowForward /> : <ArrowRight />}
+                <Button to="coolthings" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+                    to fix... {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>

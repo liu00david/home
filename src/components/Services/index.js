@@ -12,22 +12,22 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1}/>
-          <ServicesH2>Reduce exp</ServicesH2>
+          <ServicesH2>number 1</ServicesH2>
           <ServicesP>I have done this</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2}/>
-          <ServicesH2>NUMBA 2</ServicesH2>
+          <ServicesH2>number 2</ServicesH2>
           <ServicesP>I have also done this</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
-          <ServicesH2>NUMBA 3</ServicesH2>
+          <ServicesH2>num 3</ServicesH2>
           <ServicesP>I did this myself</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
-          <ServicesH2>NUMBA 4</ServicesH2>
+          <ServicesH2>lastly 4</ServicesH2>
           <ServicesP>Lastly, this thing was done</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
