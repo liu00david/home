@@ -20,7 +20,7 @@ const HeroSection = () => {
         </HeroBg>
         <HeroContent>
             <HeroH1>
-                david's site</HeroH1>
+                a website</HeroH1>
             <HeroP>
                 this is a work in progress :D
             </HeroP>
