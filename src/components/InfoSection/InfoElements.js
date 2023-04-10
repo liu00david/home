@@ -3,10 +3,10 @@ import styled from 'styled-components'
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({lightBg}) => (lightBg ? '#bfc5c5' : '#000')};
-  padding: 0 50px;
+  padding: 0px 50px;
 
   @media screen and (max-width: 768px) {
-    padding: 100px 15px;
+    padding: 50px 15px;
   }
 `
 
@@ -87,13 +87,19 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
-  max-width: 555px;
+  max-width: 400px;
   height: 100%;
+  padding: 10px;
+  display: flex;
+
+  @media screen and (max-width: 768px) {
+    margin-top: -20vh;
+  }
 `
 
 export const Img = styled.img`
   width: 100%;
-  margin: 0 0 10px 0;
+  margin: 0 0;
   padding-right: 0;
 `
 
