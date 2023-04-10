@@ -45,6 +45,7 @@ export const ServicesCard = styled.div`
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
   margin: 12px;
+  margin-bottom: 14px;
 
   &:hover {
     transform: scale(1.03);
@@ -53,6 +54,8 @@ export const ServicesCard = styled.div`
   }
 
   @media screen and (max-width: 768px) {
+    margin: 6px;
+    margin-bottom: 12px;
     height: 28vh;
     width: 20vh;
   }
