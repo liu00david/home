@@ -8,27 +8,27 @@ import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard,
 const Services = () => {
   return (
     <ServicesContainer id="coolthings">
-      <ServicesH1>My accomplishments</ServicesH1>
+      <ServicesH1>My cool things I did</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1}/>
           <ServicesH2>Reduce exp</ServicesH2>
-          <ServicesP>I will do this for you I will do this for you I will do this for you</ServicesP>
+          <ServicesP>I have done this</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2}/>
           <ServicesH2>NUMBA 2</ServicesH2>
-          <ServicesP>I will do this for you 2</ServicesP>
+          <ServicesP>I have also done this</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
           <ServicesH2>NUMBA 3</ServicesH2>
-          <ServicesP>I will do this for you 3</ServicesP>
+          <ServicesP>I did this myself</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
           <ServicesH2>NUMBA 4</ServicesH2>
-          <ServicesP>lastly, this thing.</ServicesP>
+          <ServicesP>Lastly, this thing was done</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

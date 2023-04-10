@@ -8,6 +8,9 @@ export const InfoContainer = styled.div`
   display: flex;
   align-items: center;
   /* margin-top: -80px; */
+  @media screen and (max-width: 768px) {
+    height: 110vh;
+  }
 
   /* @media screen and (max-height: 500px) {
     height: 130vh;
