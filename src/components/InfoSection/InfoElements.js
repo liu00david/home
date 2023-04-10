@@ -97,12 +97,10 @@ export const ImgWrap = styled.div`
   padding-left: 20px;
   padding-right: 20px;
   margin: auto;
-
-
   @media screen and (max-width: 768px) {
     max-height: 22vh;
     max-width: 35vh;
-    margin-top: 2vh;
+    margin-top: 6vh;
   }
 `
 
