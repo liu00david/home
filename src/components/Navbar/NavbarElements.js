@@ -97,6 +97,7 @@ export const NavBtn = styled.nav`
 `
 
 export const NavBtnLink = styled(LinkR)`
+  margin-right: 24px;
   border-radius: 50px;
   background: #01b0bb;
   white-space: nowrap;
