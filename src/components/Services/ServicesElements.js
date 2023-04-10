@@ -28,6 +28,7 @@ export const ServicesWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr 1fr;
+    padding: 0px 20px;
   }
 `
 
@@ -38,7 +39,7 @@ export const ServicesCard = styled.div`
   justify-content: flex-start;
   align-items: center;
   border-radius: 20px;
-  height: 45vh;
+  height: 42vh;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
@@ -46,14 +47,14 @@ export const ServicesCard = styled.div`
   margin-bottom: 10px;
 
   &:hover {
-    transform: scale(1.04);
+    transform: scale(1.03);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
 
   @media screen and (max-width: 768px) {
-    height: 30vh;
-    width: 30vh;
+    height: 28vh;
+    width: 25vh;
   }
 `
 
