@@ -7,7 +7,7 @@ import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard,
 
 const Services = () => {
   return (
-    <ServicesContainer id="services">
+    <ServicesContainer id="coolthings">
       <ServicesH1>My accomplishments</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
