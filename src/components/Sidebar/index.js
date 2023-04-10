@@ -6,7 +6,6 @@ import { SidebarContainer, Icon, CloseIcon,
 const Sidebar = ({ isOpen, toggle }) => {
   return (
     <>
-    {isOpen ?
     <div>
       <SidebarContainer isOpen={isOpen}>
         <Icon onClick={toggle}>
@@ -25,7 +24,6 @@ const Sidebar = ({ isOpen, toggle }) => {
         </SidebarWrapper>
       </SidebarContainer>
     </div>
-    : null }
     </>
   )
 }

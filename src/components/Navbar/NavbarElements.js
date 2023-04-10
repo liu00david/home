@@ -3,7 +3,7 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 1);
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -50,7 +50,7 @@ export const MobileIcon = styled.div`
     top: 0;
     right: 0;
     transform: translate(-100%, 100%);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     cursor: pointer;
     color: #bfdce0;
   }
