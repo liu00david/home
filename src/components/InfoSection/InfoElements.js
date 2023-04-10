@@ -100,9 +100,9 @@ export const ImgWrap = styled.div`
 
 
   @media screen and (max-width: 768px) {
-    max-width: 40vh;
-    max-height: 25vh;
-    margin-top: -3vh;
+    max-height: 22vh;
+    max-width: 35vh;
+    margin-top: 2vh;
   }
 `
 
