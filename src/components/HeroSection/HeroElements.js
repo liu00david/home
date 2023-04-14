@@ -53,8 +53,8 @@ export const HeroContent = styled.div`
     flex-direction: column;
     align-items: right;
     /* padding: 70px; */
-    margin-right: 10vw;
-    margin-top: 25vh;
+    margin-right: 18vw;
+    margin-top: 32vh;
     /* padding-bottom: 30vh; */
     /* padding-left: 30vw; */
     /* background-color: rgba(137, 150, 155, 0.5); */
@@ -62,11 +62,11 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
     color: #fff;
-    font-size: 44px;
+    font-size: 54px;
     text-align: right;
 
     @media screen and (max-width: 768px) {
-        font-size: 38px;
+        font-size: 48px;
     }
 
     /* @media screen and (max-width: 480px) {

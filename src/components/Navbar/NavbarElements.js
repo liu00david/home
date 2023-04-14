@@ -5,8 +5,8 @@ import { Link as LinkS } from 'react-scroll'
 export const Nav = styled.nav`
   /* background-color: rgba(0, 0, 0, 1); */
   background-color: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
-  height: 80px;
-  margin-top: -80px;
+  height: 70px;
+  margin-top: -70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
-  transition: 0.5s all ease;
+  transition: 0.4s all ease;
 
 
   /* @media screen and (max-width: 960px) {
@@ -36,11 +36,11 @@ export const NavLogo = styled(LinkR)`
   color: #bfdce0;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
   width: 140px;
 `
@@ -110,17 +110,17 @@ export const NavBtnLink = styled(LinkR)`
   /* color: #010606; */
   /* background: #01b0bb; */
   white-space: nowrap;
-  padding: 10px 22px;
-  font-size: 16px;
+  padding: 8px 14px;
+  font-size: 14px;
   outline: none;
   border: none;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   text-decoration: none;
   justify-content: center;
 
   &:hover {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
     background: #fff;
     color: #010606;
   }
