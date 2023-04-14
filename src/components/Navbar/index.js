@@ -40,15 +40,15 @@ const Navbar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks to="coffee" smooth={true} duration={500} spy={true} exact='true'>
-                coffee</NavLinks>
+                interests</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="mywork" smooth={true} duration={500} spy={true} exact='true'>
-                my Work</NavLinks>
+                plans</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="coolthings" smooth={true} duration={500} spy={true} exact='true'>
-                cool things</NavLinks>
+                create</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
