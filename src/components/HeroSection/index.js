@@ -25,8 +25,8 @@ const HeroSection = () => {
                 work in progress :D
             </HeroP>
             <HeroBtnWrapper>
-                <Button to="coolthings" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
-                    to fix... {hover ? <ArrowForward /> : <ArrowRight />}
+                <Button smooth={true} duration={500} spy={true} exact='true' to="about" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
+                    about me {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>
