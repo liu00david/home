@@ -77,7 +77,7 @@ export const ServicesH1 = styled.h1`
   color: #fff;
   padding-bottom: 5vh;
 
-  @media screen and (max-width: 480px){
+  @media screen and (max-width: 768px){
     font-size: 2rem;
   }
 `

@@ -3,7 +3,8 @@ import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
 export const Nav = styled.nav`
-  background-color: rgba(0, 0, 0, 1);
+  /* background-color: rgba(0, 0, 0, 1); */
+  background-color: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
   height: 80px;
   margin-top: -80px;
   display: flex;
@@ -13,10 +14,12 @@ export const Nav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
+  transition: 0.5s all ease;
 
-  @media screen and (max-width: 960px) {
+
+  /* @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
-  }
+  } */
 `
 
 export const NavbarContainer = styled.div`
@@ -83,7 +86,8 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    /* border-bottom: 2px solid turquoise; */
+    color: cyan;
   }
 `
 
@@ -97,17 +101,20 @@ export const NavBtn = styled.nav`
 `
 
 export const NavBtnLink = styled(LinkR)`
+  background: ${({ scrollNav }) => (scrollNav ? '#99d0dd' : 'transparent')};
+  color: ${({ scrollNav }) => (scrollNav ? '#010606' : '#bfdce0')};
+
   margin-right: 24px;
   border-radius: 50px;
-  background: #01b0bb;
+  /* color: #010606; */
+  /* background: #01b0bb; */
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606;
   font-size: 16px;
   outline: none;
   border: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  /* transition: all 0.2s ease-in-out; */
   text-decoration: none;
 
   &:hover {

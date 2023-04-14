@@ -3,13 +3,13 @@ import styled from 'styled-components'
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({lightBg}) => (lightBg ? '#bfc5c5' : '#000')};
-  padding: 0 50px;
+  padding: 0px 50px;
   height: 100vh;
   display: flex;
   align-items: center;
   /* margin-top: -80px; */
   @media screen and (max-width: 768px) {
-    height: 110vh;
+    height: 105vh;
   }
 
   /* @media screen and (max-height: 500px) {
@@ -104,8 +104,8 @@ export const ImgWrap = styled.div`
   padding-right: 20px;
   margin: auto;
   @media screen and (max-width: 768px) {
-    max-height: 18vh;
-    max-width: 32vh;
+    max-height: 16vh;
+    max-width: 30vh;
     margin-top: 6vh;
   }
 `

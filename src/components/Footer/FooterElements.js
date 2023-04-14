@@ -2,11 +2,11 @@ import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
 export const FooterContainer = styled.footer`
+  padding: 32px 0px;
   background-color: #101522;
 `
 
 export const FooterWrap = styled.div`
-  padding: 24px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,7 +32,7 @@ export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 24px;
+  padding: 32px;
   padding-left: 36px;
   text-align: left;
   width: 192px;
