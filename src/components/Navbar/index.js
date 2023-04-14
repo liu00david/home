@@ -34,23 +34,23 @@ const Navbar = ({ toggle }) => {
           <NavMenu>
             <NavItem>
               <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' >
-                About</NavLinks>
+                about</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="coffee" smooth={true} duration={500} spy={true} exact='true'>
-                Coffee</NavLinks>
+                coffee</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="mywork" smooth={true} duration={500} spy={true} exact='true'>
-                My Work</NavLinks>
+                my Work</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="coolthings" smooth={true} duration={500} spy={true} exact='true'>
-                Cool Things</NavLinks>
+                cool things</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink scrollNav={scrollNav} to="/signin" >What's next</NavBtnLink>
+            <NavBtnLink scrollNav={scrollNav} to="/signin" >what's next</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
