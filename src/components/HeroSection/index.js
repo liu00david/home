@@ -20,13 +20,13 @@ const HeroSection = () => {
         </HeroBg>
         <HeroContent>
             <HeroH1>
-                a website</HeroH1>
+                david</HeroH1>
             <HeroP>
-                work in progress :D
+                just a little bit of everything
             </HeroP>
             <HeroBtnWrapper>
-                <Button smooth={true} duration={500} spy={true} exact='true' to="about" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
-                    about me {hover ? <ArrowForward /> : <ArrowRight />}
+                <Button smooth={true} duration={500} spy={true} exact='true' to="about" onMouseEnter={onHover} onMouseLeave={onHover} primary={true} dark={true}>
+                    who {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>
