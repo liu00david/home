@@ -1,7 +1,7 @@
 import React from 'react'
-import { SigninContainer, SigninWrapper} from './SigninElements'
+import { SigninContainer, SigninWrapper } from './SigninElements'
 
-const index = () => {
+const Signin = () => {
   return (
     <SigninContainer>
       <SigninWrapper>
@@ -11,4 +11,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Signin
