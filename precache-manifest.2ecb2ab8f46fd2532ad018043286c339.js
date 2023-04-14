@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/home/static/media/background.d1280d33.mp4"
   },
   {
-    "revision": "1deb81437b3e6413071bbc1af6ddc402",
+    "revision": "ffd0589b5da3f5ebd71c2650793b7d0e",
     "url": "/home/index.html"
   }
 ];
