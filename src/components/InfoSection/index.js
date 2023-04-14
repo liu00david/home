@@ -8,7 +8,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
     headline, darkText, description, buttonLabel, img, alt, dark, dark2,
     primary }) => {
   return (
-    <>
+    <section>
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
@@ -34,7 +34,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
             </InfoRow>
         </InfoWrapper>
       </InfoContainer>
-    </>
+    </section>
   )
 }
 

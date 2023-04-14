@@ -33,7 +33,7 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true'>
+              <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' >
                 About</NavLinks>
             </NavItem>
             <NavItem>
@@ -50,7 +50,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink scrollNav={scrollNav} to="/signin" >Sign In!</NavBtnLink>
+            <NavBtnLink scrollNav={scrollNav} to="/signin" >What's next</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
