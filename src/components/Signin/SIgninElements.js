@@ -11,3 +11,11 @@ export const SigninContainer = styled.div`
     z-index: 1;
     color: #fff;
 `
+
+export const SigninWrapper = styled.div`
+    background: #000022;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+`

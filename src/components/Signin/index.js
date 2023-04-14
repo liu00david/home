@@ -1,10 +1,12 @@
 import React from 'react'
-import { SigninContainer} from './SigninElements'
+import { SigninContainer, SigninWrapper} from './SigninElements'
 
 const index = () => {
   return (
     <SigninContainer>
-      ARE YOU READY
+      <SigninWrapper>
+        ARE YOU READY
+      </SigninWrapper>
     </SigninContainer>
   )
 }
