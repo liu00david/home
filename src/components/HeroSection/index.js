@@ -2,6 +2,7 @@ import React from 'react'
 import Video from '../../videos/background.mp4'
 // import { Button } from '../ButtonElement';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP } from './HeroElements'
+import { Parallax, Background } from 'react-parallax';
 
 const HeroSection = () => {
 //   const [hover, setHover] = useState(true)
@@ -28,6 +29,7 @@ const HeroSection = () => {
                     who {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
             </HeroBtnWrapper> */}
+
         </HeroContent>
     </HeroContainer>
   )
