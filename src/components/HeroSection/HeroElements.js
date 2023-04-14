@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
     justify-content: right;
     align-items: top;
     padding: 0 0px;
-    height: 105vh;
+    height: 100vh;
     position: relative;
     z-index: 1;
 
@@ -20,7 +20,7 @@ export const HeroContainer = styled.div`
         bottom: 0;
         background:
             linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%),
-            linear-gradient(0deg, rgba(0.8,0,0,1) 0%, transparent 55%);
+            linear-gradient(0deg, rgba(0.8,0,0,1) 5%, transparent 50%);
         z-index: 2;
     }
 `
@@ -107,4 +107,14 @@ export const ArrowForward = styled(MdArrowForward)`
 export const ArrowRight = styled(MdKeyboardArrowRight)`
     margin-left: 8px;
     font-size: 20px;
+`
+
+export const BarIcon = styled.div`
+    text-align: right;
+    display: block;
+    font-size: 3rem;
+    cursor: pointer;
+    color: #fff;
+    margin-top: -5px;
+    margin-right: -3px;
 `
