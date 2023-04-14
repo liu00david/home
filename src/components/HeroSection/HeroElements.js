@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
     justify-content: right;
     align-items: top;
     padding: 0 0px;
-    height: 100vh;
+    height: 105vh;
     position: relative;
     z-index: 1;
 
@@ -20,7 +20,7 @@ export const HeroContainer = styled.div`
         bottom: 0;
         background:
             linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%),
-            linear-gradient(0deg, rgba(0.8,0,0,1) 0%, transparent 45%);
+            linear-gradient(0deg, rgba(0.8,0,0,1) 0%, transparent 55%);
         z-index: 2;
     }
 `
