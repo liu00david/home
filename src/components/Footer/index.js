@@ -9,40 +9,36 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-            <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to="/signin">About us</FooterLink>
-            <FooterLink to="/signin">How it works</FooterLink>
-            <FooterLink to="/signin">Testimonials</FooterLink>
-            <FooterLink to="/signin">Careers</FooterLink>
-            <FooterLink to="/signin">Other</FooterLink>
+            <FooterLinkTitle>Contact Me</FooterLinkTitle>
+            <FooterLink to="/signin">Email</FooterLink>
+            <FooterLink to="/signin">Linkedin</FooterLink>
+            <FooterLink to="/signin">Github</FooterLink>
+            <FooterLink to="/signin">Website signature</FooterLink>
             </FooterLinkItems>
 
             <FooterLinkItems>
-            <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to="/signin">About us</FooterLink>
-            <FooterLink to="/signin">How it worksasdf</FooterLink>
-            <FooterLink to="/signin">Testimonials</FooterLink>
-            <FooterLink to="/signin">Careers</FooterLink>
-            <FooterLink to="/signin">Other</FooterLink>
+            <FooterLinkTitle>Game Ideas</FooterLinkTitle>
+            <FooterLink to="/signin">Idea 1</FooterLink>
+            <FooterLink to="/signin">Idea 2</FooterLink>
+            <FooterLink to="/signin">Idea 3</FooterLink>
+            <FooterLink to="/signin">Others</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
 
           <FooterLinksWrapper>
             <FooterLinkItems>
-            <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to="/signin">About us</FooterLink>
-            <FooterLink to="/signin">How it works</FooterLink>
-            <FooterLink to="/signin">Testimonials on myself</FooterLink>
-            <FooterLink to="/signin">Careers</FooterLink>
-            <FooterLink to="/signin">Other</FooterLink>
+            <FooterLinkTitle>Blog</FooterLinkTitle>
+            <FooterLink to="/signin">Latest</FooterLink>
+            <FooterLink to="/signin">Random</FooterLink>
+            <FooterLink to="/signin">Pinned</FooterLink>
             </FooterLinkItems>
 
             <FooterLinkItems>
-            <FooterLinkTitle>Socials</FooterLinkTitle>
-            <FooterLink to="/">Instagram</FooterLink>
-            <FooterLink to="/">Facebook</FooterLink>
-            <FooterLink to="/">Youtube</FooterLink>
-            <FooterLink to="/">Twitter</FooterLink>
+            <FooterLinkTitle>Songs of the month</FooterLinkTitle>
+            <FooterLink to="/">Mirror - Porter Robinson</FooterLink>
+            <FooterLink to="/">Town Called Paradise - Tiesto</FooterLink>
+            <FooterLink to="/">Song 3</FooterLink>
+            <FooterLink to="/">Song 4</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

@@ -18,6 +18,8 @@ export const FooterWrap = styled.div`
 export const FooterLinksContainer = styled.div`
   display: flex;
   justify-content: center;
+  margin: 48px 0 0 0;
+
 `
 
 export const FooterLinksWrapper = styled.div`
@@ -32,15 +34,21 @@ export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 32px;
-  padding-left: 36px;
   text-align: left;
-  width: 192px;
-  box-sizing: border-box;
+  width: 240px;
   color: #fff;
+  height: 240px;
+  padding-left: 32px;
+
+  @media screen and (max-width: 1100px) {
+    width: 160px;
+  }
 
   @media screen and (max-width: 768px) {
-    margin: 12px;
+    width: 240px;
+  }
+
+  @media screen and (max-width: 480px) {
     width: 160px;
   }
 `
