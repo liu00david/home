@@ -109,7 +109,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
   background: ${({ scrollNav }) => (scrollNav ? lightPurple : 'transparent')};
-  color: ${({ scrollNav }) => (scrollNav ? darkPurple : lightPurple)};
+  color: ${({ scrollNav }) => (scrollNav ? darkPurple : '#fff')};
 
   border-radius: 50px;
   white-space: nowrap;
