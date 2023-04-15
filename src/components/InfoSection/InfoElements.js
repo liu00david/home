@@ -8,10 +8,10 @@ const offWhite = '#F5F5E9'
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({lightBg}) => (lightBg ? '#CDD6DA' : '#181825')};
-  padding: 0px 50px;
   height: 100vh;
   display: flex;
   align-items: center;
+  padding: 0 11vw;
 
   @media screen and (max-width: 768px) {
     height: 110vh;
@@ -26,41 +26,40 @@ export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0px 36px;
 
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     padding: 5vh 3vw;
-  }
+  } */
 `
 
 export const InfoRow = styled.div`
   display: grid;
-  grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
   grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+  grid-template-columns: ${({imgStart}) => (imgStart ? '1.5fr 2fr' : '2fr 1.5fr')};
+
   @media screen and (max-width: 768px) {
-    grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+    grid-template-areas: 'col1 col1' 'col2 col2';
   }
 `
 
 export const Column1 = styled.div`
-  padding: 0 15px;
-  margin-right: 0px;
+  padding: 0 28px;
   grid-area: col1;
 `
 
 export const Column2 = styled.div`
-  padding: 0 15px;
+  padding: 0 28px;
   grid-area: col2;
 `
 
 export const TextWrapper = styled.div`
-  max-width: 800px;
-  padding-bottom: 10px;
-  padding-left: 16px;
+  position: relative;
+  margin-left: auto;
+  max-width: 600px;
 `
 
 export const TopLine = styled.p`
@@ -86,11 +85,10 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle = styled.p`
-  max-width: 440px;
   margin-bottom: 25px;
   font-size: 18px;
   line-height: 24px;
-  letter-spacing: -0.16px;
+  letter-spacing: -0.05px;
   color: ${({darkText}) => (darkText ? "#000" : offWhite)};
   @media screen and (max-width: 768px) {
     font-size: 18px;
@@ -108,29 +106,22 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
-  max-width: 42vh;
-  /* max-height: 55vh; */
-  height: 100%;
-  padding-left: 20px;
-  margin: auto;
+  max-width: 380px;
+
   @media screen and (max-width: 768px) {
-    /* max-height: 18vh; */
-    margin-right: 4vw;
-    margin-top: 20px;
+    max-width: 350px;
+    padding-top: 50px;
   }
 `
 
 export const Img = styled.img`
-  width: 110%;
+  width: 100%;
   border-radius: 50px;
-  margin: 0 auto;
+  text-align: right;
 
   @media screen and (max-width: 768px) {
-    width: 80%;
-  }
-
-  @media screen and (max-width: 480px) {
     width: 75%;
   }
+
 `
 

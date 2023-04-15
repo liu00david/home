@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { Nav, NavbarContainer, NavLogo } from './NavbarPagesElements'
+import { Nav, NavbarContainer, NavLogo } from '../Navbar/NavbarElements'
 import { animateScroll as scroll } from 'react-scroll';
 
 const Navbar = ({ toggle }) => {

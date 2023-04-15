@@ -10,15 +10,16 @@ const lightBluePurple = '#9298FF'
 
 export const Nav = styled.nav`
   /* background-color: rgba(0, 0, 0, 1); */
-  background-color: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
-  height: 70px;
-  margin-top: -70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
   position: sticky;
   top: 0;
+
+  background-color: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
+  height: 70px;
+  margin-top: -70px;
+  font-size: 1rem;
   z-index: 10;
   transition: 0.4s all ease;
 
@@ -34,21 +35,20 @@ export const NavbarContainer = styled.div`
   height: 70px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
+  padding: 0 36px;
   max-width: 1100px;
 `
 
 export const NavLogo = styled(LinkR)`
   color: ${({ scrollNav }) => (scrollNav ? lightPurple : '#fff')};
   justify-self: flex-start;
-  cursor: pointer;
-  font-size: 1.2rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+
+  cursor: pointer;
+  font-size: 1.4rem;
   font-weight: 600;
   text-decoration: none;
-  width: 140px;
 `
 
 export const MobileIcon = styled.div`
@@ -71,7 +71,6 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: 0px;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -99,6 +98,7 @@ export const NavLinks = styled(LinkS)`
 `
 
 export const NavBtn = styled.nav`
+  justify-self: flex-end;
   display: flex;
   align-items: center;
   justify-content: center;
