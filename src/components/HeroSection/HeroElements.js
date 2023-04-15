@@ -1,14 +1,13 @@
 import styled from 'styled-components'
-import { MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
+// import { MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
 
 export const HeroContainer = styled.div`
-    background: #222;
+    height: 100vh;
     display: flex;
     justify-content: right;
     align-items: top;
-    padding: 0 0px;
-    height: 100vh;
     position: relative;
+
     z-index: 1;
 
     :before {
@@ -41,83 +40,63 @@ export const VideoBg = styled.video`
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    background: #232a34;
     z-index: -1;
 `
 
 export const HeroContent = styled.div`
-    z-index: 3;
-    max-width: 1200px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
+    position: relative;
     align-items: right;
-    /* padding: 70px; */
     margin-right: 18vw;
     margin-top: 33vh;
-    /* padding-bottom: 30vh; */
-    /* padding-left: 30vw; */
-    /* background-color: rgba(137, 150, 155, 0.5); */
     color: #fff;
+    z-index: 3;
 `
 
 export const HeroH1 = styled.h1`
-    /* color: #fff; */
-    font-size: 54px;
     text-align: right;
+
+    font-size: 54px;
     font-weight: 600;
 
     @media screen and (max-width: 768px) {
         font-size: 48px;
     }
-
-    /* @media screen and (max-width: 480px) {
-        font-size: 32px;
-    } */
 `
 
 export const HeroP = styled.p`
-    /* margin-top: 46px; */
-    /* color: #fff; */
     font-size: 22px;
     text-align: right;
-    max-width: 600px;
-    /* padding: 10px; */
 
     @media screen and (max-width: 768px) {
-        /* margin-top: 28px; */
         font-size: 18px;
     }
-
-    /* @media screen and (max-width: 480px) {
-        font-size: 16px;
-    } */
 `
 
-export const HeroBtnWrapper = styled.div`
-    margin-top: 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-`
+// export const HeroBtnWrapper = styled.div`
+//     margin-top: 32px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// `
 
-export const ArrowForward = styled(MdArrowForward)`
-    margin-left: 8px;
-    font-size: 20px;
-`
+// export const ArrowForward = styled(MdArrowForward)`
+//     margin-left: 8px;
+//     font-size: 20px;
+// `
 
-export const ArrowRight = styled(MdKeyboardArrowRight)`
-    margin-left: 8px;
-    font-size: 20px;
-`
+// export const ArrowRight = styled(MdKeyboardArrowRight)`
+//     margin-left: 8px;
+//     font-size: 20px;
+// `
 
 export const BarIcon = styled.div`
-    text-align: right;
-    display: block;
-    font-size: 3rem;
-    /* color: #fff; */
-    margin-top: -5px;
-    margin-right: -3px;
+  position: relative;
+  right: 0px;
+  width: 60px;
+  height: 5px;
+  margin: 12px 0 0 auto;
+  background-color: white;
+  border-radius: 5px;
 `
 
 export const HeroPhaser = styled.div`

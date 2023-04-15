@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
 import Video from '../../videos/background.mp4'
 // import { Button } from '../ButtonElement';
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, BarIcon, HeroPhaser} from './HeroElements'
-// import { Parallax, Background } from 'react-parallax';
-import { AiOutlineLine } from 'react-icons/ai'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, BarIcon, HeroPhaser } from './HeroElements'
 
 const HeroSection = () => {
 //   const [hover, setHover] = useState(true)
@@ -46,7 +44,7 @@ const HeroSection = () => {
                     who {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
             </HeroBtnWrapper> */}
-        <BarIcon> <AiOutlineLine /> </BarIcon>
+        <BarIcon />
         </HeroContent>
     </HeroContainer>
     <HeroPhaser />
