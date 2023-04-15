@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 const lightPurple = '#D5CEE9'
 const darkPurple = '#330C49'
-const offWhiteWhite = '#F1F1EA'
 const offWhite = '#F5F5E9'
 
 
@@ -68,7 +67,7 @@ export const TopLine = styled.p`
   color: ${({lightText}) => (lightText ? lightPurple : darkPurple)};
   font-size: 16px;
   line-height: 16px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -91,6 +90,7 @@ export const Subtitle = styled.p`
   margin-bottom: 25px;
   font-size: 18px;
   line-height: 24px;
+  letter-spacing: 0.1px;
   color: ${({darkText}) => (darkText ? "#000" : offWhite)};
   @media screen and (max-width: 768px) {
     font-size: 16px;

@@ -49,7 +49,7 @@ export const homeObjThree = {
   headline: 'What I\'ve done',
   description: 'On this site, I want to showcase some of those interests, to' +
   ' be able to show others but also for my own memory to look back and see the things that I enjoyed doing.' +
-  ' On another page, I\'ll present media and maybe an accompanying timeline of things from me, like' +
+  ' On another page, I\'ll present media and maybe an accompanying timeline of things frombme, like' +
   ' my spreadsheets, keyboard builds, Valorant moments, travel adventures, and more.',
   buttonLabel: 'Gallery',
   imgStart: false,
