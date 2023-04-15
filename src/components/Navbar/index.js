@@ -9,7 +9,7 @@ const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
-    if(window.scrollY >= 80) {
+    if(window.scrollY >= 70) {
       setScrollNav(true) } else {
       setScrollNav(false)
     }
@@ -30,7 +30,7 @@ const Navbar = ({ toggle }) => {
           <NavLogo to="/" onClick={toggleHome} scrollNav={scrollNav}>
             liu00david
             </NavLogo>
-          <MobileIcon onClick={toggle}>
+          <MobileIcon onClick={toggle} scrollNav={scrollNav}>
             <FaBars />
           </MobileIcon>
           <NavMenu>

@@ -54,7 +54,7 @@ export const HeroContent = styled.div`
     align-items: right;
     /* padding: 70px; */
     margin-right: 18vw;
-    margin-top: 32vh;
+    margin-top: 33vh;
     /* padding-bottom: 30vh; */
     /* padding-left: 30vw; */
     /* background-color: rgba(137, 150, 155, 0.5); */
@@ -115,7 +115,6 @@ export const BarIcon = styled.div`
     text-align: right;
     display: block;
     font-size: 3rem;
-    cursor: pointer;
     /* color: #fff; */
     margin-top: -5px;
     margin-right: -3px;
