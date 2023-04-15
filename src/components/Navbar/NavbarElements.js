@@ -5,7 +5,7 @@ import { Link as LinkS } from 'react-scroll'
 const lightPurple = '#D5CEE9'
 const darkPurple = '#330C49'
 const offWhite = '#F5F5E9'
-const lightBluePurple = '#9298FF'
+const lightBluePurple = '#AEF'
 
 
 export const Nav = styled.nav`

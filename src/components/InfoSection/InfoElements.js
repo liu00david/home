@@ -17,9 +17,9 @@ export const InfoContainer = styled.div`
     height: 110vh;
   }
 
-  /* @media screen and (max-height: 500px) {
-    height: 130vh;
-  } */
+  @media screen and (max-height: 650px) {
+    height: 150vh;
+  }
 `
 
 export const InfoWrapper = styled.div`

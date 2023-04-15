@@ -19,10 +19,13 @@ const HeroSection = () => {
 
     function parallax() {
         var herocontent = document.getElementById("herocontent");
-        var yPos = 0 - window.pageYOffset/7;
+        var herobar = document.getElementById("herobar");
+        var yPos = 0 - window.pageYOffset/6;
         herocontent.style.top = 0 + yPos + "%";
-        var opacity = 1 - window.pageYOffset/100;
+        var opacity = 1 - window.pageYOffset/60;
         herocontent.style.color = "rgba(255, 255, 255, " + opacity + ")";
+        herobar.style.backgroundColor = "rgba(255, 255, 255, " + opacity + ")";
+
     }
 
   return (
@@ -44,7 +47,7 @@ const HeroSection = () => {
                     who {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
             </HeroBtnWrapper> */}
-        <BarIcon />
+        <BarIcon id="herobar"/>
         </HeroContent>
     </HeroContainer>
     <HeroPhaser />

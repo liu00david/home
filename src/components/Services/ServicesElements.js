@@ -1,5 +1,8 @@
 import styled from 'styled-components'
 
+const lightBkg = '#CDD6DA'
+
+
 export const ServicesContainer = styled.div`
   height: 100vh;
   display: flex;
@@ -34,7 +37,7 @@ export const ServicesWrapper = styled.div`
 `
 
 export const ServicesCard = styled.div`
-  background: #e5e5f0;
+  background: ${lightBkg};
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -46,7 +49,7 @@ export const ServicesCard = styled.div`
   transition: all 0.2s ease-in-out;
   margin: 12px;
   margin-bottom: 14px;
-  max-width: 380px;
+  max-width: 340px;
 
   &:hover {
     transform: scale(1.03);
@@ -58,15 +61,29 @@ export const ServicesCard = styled.div`
     margin: 6px;
     margin-bottom: 12px;
     width: 40vw;
+    height: 28vh;
+  }
+
+  @media screen and (max-height: 650px) {
+    height: 36vh;
   }
 `
 
 export const ServicesIcon = styled.img`
-  height: 10vh;
-  width: 10vh;
+  height: 12vh;
+  width: 12vh;
 
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     max-height: 9vh;
+    max-width: 10vh;
+  } */
+
+  @media screen and (max-height: 800px) {
+    max-height: 7vh;
+  }
+
+  @media screen and (max-width: 600px) {
+    max-height: 8vh;
     max-width: 10vh;
   }
 `
@@ -89,14 +106,19 @@ export const ServicesH2 = styled.h2`
 `
 
 export const ServicesP = styled.p`
-  font-size: 1.4rem;
+  font-size: 1rem;
   text-align: center;
+  padding: 0 10px;
 
   @media screen and (max-width: 768px) {
-    font-size: 1.25rem;
+    font-size: 0.9rem;
+    padding: 0px;
+  }
+  @media screen and (max-height: 800px) {
+    font-size: 0.9rem;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 0.9rem;
+    font-size: 0.75rem;
   }
 `

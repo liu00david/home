@@ -15,17 +15,17 @@ const Services = () => {
         <ServicesCard>
           <ServicesIcon src={IconPiegraph}/>
           <ServicesH2>Spreadsheets</ServicesH2>
-          <ServicesP>Some of my most used spreadsheets.</ServicesP>
+          <ServicesP>Some of my most used spreadsheets to today.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={IconKeyboard}/>
           <ServicesH2>Keyboards</ServicesH2>
-          <ServicesP>My mechanical keyboard builds, specficiations and general media.</ServicesP>
+          <ServicesP>My mechanical keyboard builds, specs and media.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={IconTravel}/>
           <ServicesH2>Travel</ServicesH2>
-          <ServicesP>Places I've been and want to go.</ServicesP>
+          <ServicesP>The places I've been or want to go, with itineraries.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon4}/>
