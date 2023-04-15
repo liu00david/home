@@ -14,7 +14,7 @@ export const InfoContainer = styled.div`
   align-items: center;
 
   @media screen and (max-width: 768px) {
-    height: 100vh;
+    height: 110vh;
   }
 
   /* @media screen and (max-height: 500px) {
@@ -32,7 +32,7 @@ export const InfoWrapper = styled.div`
   padding: 0px 36px;
 
   @media screen and (max-width: 768px) {
-    padding: 5vh 5vw;
+    padding: 5vh 3vw;
   }
 `
 
@@ -90,10 +90,15 @@ export const Subtitle = styled.p`
   margin-bottom: 25px;
   font-size: 18px;
   line-height: 24px;
-  letter-spacing: 0.1px;
+  letter-spacing: -0.16px;
   color: ${({darkText}) => (darkText ? "#000" : offWhite)};
   @media screen and (max-width: 768px) {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  @media screen and (max-width: 480px) {
     font-size: 16px;
+    line-height: 20px;
   }
 `
 
@@ -103,21 +108,29 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
-  max-width: 50vh;
-  max-height: 55vh;
+  max-width: 42vh;
+  /* max-height: 55vh; */
   height: 100%;
   padding-left: 20px;
   margin: auto;
   @media screen and (max-width: 768px) {
-    max-height: 20vh;
-    max-width: 35vh;
-    margin-right: 15px;
+    /* max-height: 18vh; */
+    margin-right: 4vw;
+    margin-top: 20px;
   }
 `
 
 export const Img = styled.img`
-  width: 100%;
+  width: 110%;
   border-radius: 50px;
   margin: 0 auto;
+
+  @media screen and (max-width: 768px) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 75%;
+  }
 `
 
