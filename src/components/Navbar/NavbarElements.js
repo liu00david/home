@@ -5,6 +5,7 @@ import { Link as LinkS } from 'react-scroll'
 const lightPurple = '#D5CEE9'
 const darkPurple = '#330C49'
 const offWhite = '#F5F5E9'
+const lightBluePurple = '#9298FF'
 
 
 export const Nav = styled.nav`
@@ -93,7 +94,7 @@ export const NavLinks = styled(LinkS)`
 
   &.active {
     /* border-bottom: 2px solid turquoise; */
-    color: ${lightPurple}
+    color: ${lightBluePurple}
   }
 `
 
