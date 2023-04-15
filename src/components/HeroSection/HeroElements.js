@@ -58,12 +58,14 @@ export const HeroContent = styled.div`
     /* padding-bottom: 30vh; */
     /* padding-left: 30vw; */
     /* background-color: rgba(137, 150, 155, 0.5); */
+    color: #fff;
 `
 
 export const HeroH1 = styled.h1`
-    color: #fff;
+    /* color: #fff; */
     font-size: 54px;
     text-align: right;
+    font-weight: 600;
 
     @media screen and (max-width: 768px) {
         font-size: 48px;
@@ -76,9 +78,9 @@ export const HeroH1 = styled.h1`
 
 export const HeroP = styled.p`
     /* margin-top: 46px; */
-    color: #fff;
+    /* color: #fff; */
     font-size: 22px;
-    text-align: left;
+    text-align: right;
     max-width: 600px;
     /* padding: 10px; */
 
@@ -114,12 +116,12 @@ export const BarIcon = styled.div`
     display: block;
     font-size: 3rem;
     cursor: pointer;
-    color: #fff;
+    /* color: #fff; */
     margin-top: -5px;
     margin-right: -3px;
 `
 
 export const HeroPhaser = styled.div`
-    background: linear-gradient(to bottom, #000000, rgba(24,24,37,0.8)), #181825;
+    background: linear-gradient(to bottom, #000000, transparent), #181825;
     height: 40px;
 `
