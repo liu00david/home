@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
 
 export const HeroContainer = styled.div`
-    background: #0c0c0c;
+    background: #222;
     display: flex;
     justify-content: right;
     align-items: top;
@@ -19,8 +19,8 @@ export const HeroContainer = styled.div`
         right: 0;
         bottom: 0;
         background:
-            linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%),
-            linear-gradient(0deg, rgba(0.8,0,0,1) 5%, transparent 50%);
+            linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 50%),
+            linear-gradient(0deg, rgba(0,0,0,1) 0%, transparent 50%);
         z-index: 2;
     }
 `
@@ -117,4 +117,9 @@ export const BarIcon = styled.div`
     color: #fff;
     margin-top: -5px;
     margin-right: -3px;
+`
+
+export const HeroPhaser = styled.div`
+    background: linear-gradient(to bottom, #000000, rgba(24,24,37,0.8)), #181825;
+    height: 40px;
 `

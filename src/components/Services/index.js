@@ -8,27 +8,27 @@ import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard,
 const Services = () => {
   return (
     <ServicesContainer id="coolthings">
-      <ServicesH1>Some cool things I did?</ServicesH1>
+      <ServicesH1>Showcase</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1}/>
-          <ServicesH2>number 1</ServicesH2>
-          <ServicesP>I have done this</ServicesP>
+          <ServicesH2>Spreadsheets</ServicesH2>
+          <ServicesP>Some of my most used spreadsheets.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2}/>
-          <ServicesH2>number 2</ServicesH2>
-          <ServicesP>I have also done this</ServicesP>
+          <ServicesH2>Keyboards</ServicesH2>
+          <ServicesP>My mechanical keyboard builds, specficiations and general media.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
-          <ServicesH2>num 3</ServicesH2>
-          <ServicesP>I did this myself</ServicesP>
+          <ServicesH2>Travel</ServicesH2>
+          <ServicesP>Places I've been and want to go.</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
-          <ServicesH2>lastly 4</ServicesH2>
-          <ServicesP>Lastly, this thing was done</ServicesP>
+          <ServicesH2>Tutoring</ServicesH2>
+          <ServicesP>My past teaching and tutoring, and volunteer prospects.</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

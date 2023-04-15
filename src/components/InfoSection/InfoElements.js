@@ -1,15 +1,21 @@
 import styled from 'styled-components'
 
+const lightPurple = '#D5CEE9'
+const darkPurple = '#330C49'
+const offWhiteWhite = '#F1F1EA'
+const offWhite = '#F5F5E9'
+
+
 export const InfoContainer = styled.div`
   color: #fff;
-  background: ${({lightBg}) => (lightBg ? '#bfc5c5' : '#000')};
+  background: ${({lightBg}) => (lightBg ? '#CDD6DA' : '#181825')};
   padding: 0px 50px;
   height: 100vh;
   display: flex;
   align-items: center;
-  /* margin-top: -80px; */
+
   @media screen and (max-width: 768px) {
-    height: 105vh;
+    height: 100vh;
   }
 
   /* @media screen and (max-height: 500px) {
@@ -24,7 +30,6 @@ export const InfoWrapper = styled.div`
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 1vh;
   padding: 0px 36px;
 
   @media screen and (max-width: 768px) {
@@ -56,10 +61,11 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
   max-width: 800px;
   padding-bottom: 10px;
+  padding-left: 16px;
 `
 
 export const TopLine = styled.p`
-  color: ${({lightText}) => (lightText ? '#CBC3E3' : "#5c008d")};
+  color: ${({lightText}) => (lightText ? lightPurple : darkPurple)};
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -70,10 +76,10 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 44px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({lightText}) => (lightText ? '#f7f8f8' : "#010616")};
+  color: ${({lightText}) => (lightText ? offWhite : "#000")};
 
   @media screen and (max-width: 768px) {
     font-size: 32px;
@@ -85,7 +91,7 @@ export const Subtitle = styled.p`
   margin-bottom: 25px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({darkText}) => (darkText ? "#010606" : '#fff')};
+  color: ${({darkText}) => (darkText ? "#000" : offWhite)};
   @media screen and (max-width: 768px) {
     font-size: 16px;
   }
@@ -97,20 +103,21 @@ export const BtnWrap = styled.div`
 `
 
 export const ImgWrap = styled.div`
-  max-width: 60vh;
+  max-width: 50vh;
   max-height: 55vh;
   height: 100%;
   padding-left: 20px;
-  padding-right: 20px;
   margin: auto;
   @media screen and (max-width: 768px) {
-    max-height: 16vh;
-    max-width: 30vh;
-    margin-top: 6vh;
+    max-height: 20vh;
+    max-width: 35vh;
+    margin-right: 15px;
   }
 `
 
 export const Img = styled.img`
   width: 100%;
+  border-radius: 50px;
+  margin: 0 auto;
 `
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Video from '../../videos/background.mp4'
 // import { Button } from '../ButtonElement';
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, BarIcon } from './HeroElements'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, BarIcon, HeroPhaser} from './HeroElements'
 // import { Parallax, Background } from 'react-parallax';
 import { AiOutlineLine } from 'react-icons/ai'
 
@@ -14,6 +14,7 @@ const HeroSection = () => {
 //   }
 
   return (
+    <>
     <HeroContainer id="home">
         <HeroBg>
             <VideoBg autoPlay loop muted playsInline={true}
@@ -34,6 +35,8 @@ const HeroSection = () => {
         <BarIcon> <AiOutlineLine /> </BarIcon>
         </HeroContent>
     </HeroContainer>
+    <HeroPhaser />
+    </>
   )
 }
 

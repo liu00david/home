@@ -40,12 +40,13 @@ export const ServicesCard = styled.div`
   justify-content: flex-start;
   align-items: center;
   border-radius: 20px;
-  height: 28vh;
+  height: 26vh;
   padding: 30px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
   margin: 12px;
   margin-bottom: 14px;
+  max-width: 35vw;
 
   &:hover {
     transform: scale(1.03);
@@ -56,15 +57,13 @@ export const ServicesCard = styled.div`
   @media screen and (max-width: 768px) {
     margin: 6px;
     margin-bottom: 12px;
-    height: 28vh;
     width: 20vh;
   }
 `
 
 export const ServicesIcon = styled.img`
-  height: 12vh;
+  height: 10vh;
   width: 25vh;
-  padding-bottom: 1vh;
 
   @media screen and (max-width: 768px) {
     height: 10vh;
@@ -93,6 +92,6 @@ export const ServicesP = styled.p`
   text-align: center;
 
   @media screen and (max-width: 768px) {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 `

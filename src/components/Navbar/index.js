@@ -27,7 +27,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/" onClick={toggleHome}>
+          <NavLogo to="/" onClick={toggleHome} scrollNav={scrollNav}>
             liu00david
             </NavLogo>
           <MobileIcon onClick={toggle}>
@@ -35,19 +35,19 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' >
+              <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' scrollNav={scrollNav}>
                 about</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="coffee" smooth={true} duration={500} spy={true} exact='true'>
+              <NavLinks to="coffee" smooth={true} duration={500} spy={true} exact='true' scrollNav={scrollNav}>
                 interests</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="mywork" smooth={true} duration={500} spy={true} exact='true'>
+              <NavLinks to="mywork" smooth={true} duration={500} spy={true} exact='true' scrollNav={scrollNav}>
                 plans</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="coolthings" smooth={true} duration={500} spy={true} exact='true'>
+              <NavLinks to="coolthings" smooth={true} duration={500} spy={true} exact='true' scrollNav={scrollNav}>
                 create</NavLinks>
             </NavItem>
           </NavMenu>

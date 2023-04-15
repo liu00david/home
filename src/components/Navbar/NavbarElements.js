@@ -2,6 +2,11 @@ import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
+const lightPurple = '#D5CEE9'
+const darkPurple = '#330C49'
+const offWhite = '#F5F5E9'
+
+
 export const Nav = styled.nav`
   /* background-color: rgba(0, 0, 0, 1); */
   background-color: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
@@ -33,7 +38,7 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogo = styled(LinkR)`
-  color: #bfdce0;
+  color: ${({ scrollNav }) => (scrollNav ? lightPurple : '#fff')};
   justify-self: flex-start;
   cursor: pointer;
   font-size: 1.2rem;
@@ -56,7 +61,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 100%);
     font-size: 1.4rem;
     cursor: pointer;
-    color: #bfdce0;
+    color: ${({ scrollNav }) => (scrollNav ? lightPurple : '#fff')};
   }
 `
 
@@ -77,7 +82,7 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkS)`
-  color: #bfdce0;
+  color: ${({ scrollNav }) => (scrollNav ? lightPurple : '#fff')};
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -88,7 +93,7 @@ export const NavLinks = styled(LinkS)`
 
   &.active {
     /* border-bottom: 2px solid turquoise; */
-    color: cyan;
+    color: ${lightPurple}
   }
 `
 
@@ -103,12 +108,10 @@ export const NavBtn = styled.nav`
 `
 
 export const NavBtnLink = styled(LinkR)`
-  background: ${({ scrollNav }) => (scrollNav ? '#99d0dd' : 'transparent')};
-  color: ${({ scrollNav }) => (scrollNav ? '#010606' : '#bfdce0')};
+  background: ${({ scrollNav }) => (scrollNav ? lightPurple : 'transparent')};
+  color: ${({ scrollNav }) => (scrollNav ? darkPurple : lightPurple)};
 
   border-radius: 50px;
-  /* color: #010606; */
-  /* background: #01b0bb; */
   white-space: nowrap;
   padding: 8px 14px;
   font-size: 14px;
@@ -121,7 +124,9 @@ export const NavBtnLink = styled(LinkR)`
 
   &:hover {
     transition: all 0.3s ease-in-out;
-    background: #fff;
-    color: #010606;
+    color: ${lightPurple};
+    background: ${darkPurple};
+    color: ${({ scrollNav }) => (scrollNav ? darkPurple : lightPurple)};
+    background: ${({ scrollNav }) => (scrollNav ? offWhite : darkPurple)};
   }
 `
