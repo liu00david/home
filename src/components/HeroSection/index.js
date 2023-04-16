@@ -20,12 +20,12 @@ const HeroSection = () => {
     function parallax() {
         var herocontent = document.getElementById("herocontent");
         var herobar = document.getElementById("herobar");
-        var yPos = 0 - window.pageYOffset/6;
-        herocontent.style.top = 0 + yPos + "%";
-        var opacity = 1 - window.pageYOffset/60;
+        var yPos = Math.max(0 - window.pageYOffset/6, -50);
+        // herocontent.style.left = 0 + yPos + "%";
+        herocontent.style.bottom = 0 + yPos + "%";
+        var opacity = 1 - window.pageYOffset/280;
         herocontent.style.color = "rgba(255, 255, 255, " + opacity + ")";
         herobar.style.backgroundColor = "rgba(255, 255, 255, " + opacity + ")";
-
     }
 
   return (
