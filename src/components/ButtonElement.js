@@ -19,10 +19,10 @@ export const Button = styled(Link)`
     border: none;
     cursor: pointer;
     display: flex;
-    justify-content: feComponentTransfer;
     align-items: center;
     transition: all 0.2s ease-in-out;
     font-weight: 400;
+    text-decoration: none;
 
     &:hover {
         transition: all 0.2s ease-in-out;
@@ -45,6 +45,7 @@ export const ButtonTransparent = styled(Link)`
     align-items: center;
     transition: all 0.2s ease-in-out;
     font-weight: 400;
+    text-decoration: none;
 
     &:hover {
         transition: all 0.2s ease-in-out;

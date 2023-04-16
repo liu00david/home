@@ -6,7 +6,7 @@ import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper,
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
     headline, darkText, description, buttonLabel, img, alt, dark, dark2,
-    primary }) => {
+    primary, linkRef }) => {
   return (
     <section>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -18,7 +18,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
             <Heading lightText={lightText}>{headline}</Heading>
             <Subtitle darkText={darkText}>{description}</Subtitle>
             <BtnWrap>
-              <Button to='https://github.com/liu00david/home/tree/main/src/media/resume.pdf' primary={primary ? 1 : 0} dark={dark ? 1 : 0}
+              <Button to={linkRef} primary={primary ? 1 : 0} dark={dark ? 1 : 0}
                 smooth={true} duration={500} spy={true} exact="true"
                 offset={-80} dark2={dark2 ? 1 : 0}>
                 {buttonLabel}
