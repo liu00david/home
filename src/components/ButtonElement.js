@@ -1,5 +1,6 @@
 import styled from 'styled-components'
-import { Link } from 'react-scroll'
+// import { SLink } from 'react-scroll'
+import { Link } from 'react-router-dom'
 
 const lightPurple = '#D0C8E9'
 const darkPurple = '#330C49'

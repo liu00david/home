@@ -1,14 +1,8 @@
 import React, { useEffect } from "react";
 import Video from '../../videos/background.mp4'
-// import { Button } from '../ButtonElement';
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, BarIcon, HeroPhaser } from './HeroElements'
 
 const HeroSection = () => {
-//   const [hover, setHover] = useState(true)
-
-//   const onHover = () => {
-//     setHover(!hover)
-//   }
 
     useEffect(() => {
         window.addEventListener("scroll", function(){
@@ -22,7 +16,6 @@ const HeroSection = () => {
         if (herocontent) {
             var herobar = document.getElementById("herobar");
             var yPos = Math.max(0 - window.pageYOffset/9, -55);
-            // herocontent.style.left = 0 + yPos + "%";
             herocontent.style.bottom = 0 + yPos + "%";
             var opacity = 1 - window.pageYOffset/300;
             herocontent.style.color = "rgba(255, 255, 255, " + opacity + ")";
@@ -44,11 +37,6 @@ const HeroSection = () => {
             <HeroP>
                 here's a little bit of everything
             </HeroP>
-            {/* <HeroBtnWrapper>
-                <Button smooth={true} duration={500} spy={true} exact='true' to="about" onMouseEnter={onHover} onMouseLeave={onHover} primary={true} dark={true}>
-                    who {hover ? <ArrowForward /> : <ArrowRight />}
-                </Button>
-            </HeroBtnWrapper> */}
         <BarIcon id="herobar"/>
         </HeroContent>
     </HeroContainer>
