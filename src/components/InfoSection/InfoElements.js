@@ -74,28 +74,24 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 44px;
+  font-size: 2rem;
   line-height: 1.1;
   font-weight: 600;
   color: ${({lightText}) => (lightText ? offWhite : "#000")};
 
   @media screen and (max-width: 768px) {
-    font-size: 32px;
+    font-size: 1.7rem;
   }
 `
 
 export const Subtitle = styled.p`
   margin-bottom: 25px;
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 24px;
   letter-spacing: -0.05px;
   color: ${({darkText}) => (darkText ? "#000" : offWhite)};
-  @media screen and (max-width: 768px) {
-    font-size: 18px;
-    line-height: 22px;
-  }
   @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-size: 0.9rem;
     line-height: 20px;
   }
 `

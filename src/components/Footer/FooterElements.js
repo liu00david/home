@@ -1,62 +1,35 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
+const skyBlue = '#AEF'
+const darkDarkBkg = '#181825';
+
 export const FooterContainer = styled.footer`
-  padding: 32px 0px;
-  background-color: #101522;
+  background-color: ${darkDarkBkg};
 `
 
 export const FooterWrap = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   max-width: 1100px;
   margin: 0 auto;
-`
-
-export const FooterLinksContainer = styled.div`
+  padding: 64px;
   display: flex;
-  justify-content: center;
-  margin: 48px 0 0 0;
-
-`
-
-export const FooterLinksWrapper = styled.div`
-  display: flex;
-
-  @media screen and (max-width: 768px) {
-    flex-direction: column;
-  }
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 `
 
 export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   text-align: left;
-  width: 240px;
   color: #fff;
-  height: 240px;
-  padding-left: 32px;
-
-  @media screen and (max-width: 1100px) {
-    width: 160px;
-  }
-
-  @media screen and (max-width: 768px) {
-    width: 240px;
-  }
-
-  @media screen and (max-width: 480px) {
-    width: 160px;
-  }
+  height: 220px;
 `
 
 export const FooterLinkTitle = styled.h1`
   font-size: 14px;
-  margin-bottom: 16px;
   font-weight: 600;
+  margin: 18px 0;
 `
 
 export const FooterLink = styled(Link)`
@@ -66,7 +39,7 @@ export const FooterLink = styled(Link)`
   font-size: 14px;
 
   &:hover {
-    color: #01bf71;
+    color: ${skyBlue};
     transition: 0.3s ease-out;
   };
 `
