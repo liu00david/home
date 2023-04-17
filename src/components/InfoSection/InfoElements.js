@@ -30,6 +30,12 @@ export const InfoWrapper = styled.div`
   margin-right: auto;
   margin-left: auto;
 
+  opacity: ${({ visible }) => (visible ? 1 : 0)};
+  transition: all 1s;
+
+  @media screen and (max-height: 650px) {
+
+  }
   /* @media screen and (max-width: 768px) {
     padding: 5vh 3vw;
   } */

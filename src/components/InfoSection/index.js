@@ -6,13 +6,12 @@ import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper,
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
     headline, darkText, description, buttonLabel, img, alt, dark, dark2,
-    primary, linkRef }) => {
-
+    primary, linkRef, idwrapper}) => {
 
   return (
     <section>
       <InfoContainer lightBg={lightBg} id={id}>
-        <InfoWrapper>
+        <InfoWrapper id={idwrapper} visible={true}>
           <InfoRow imgStart={imgStart}>
             <Column1>
             <TextWrapper>

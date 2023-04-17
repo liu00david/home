@@ -6,6 +6,7 @@ const darkPurple = '#330C49'
 
 export const homeObjOne = {
   id: 'about',
+  idwrapper: 'aboutwrapper',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -35,6 +36,7 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
   id: 'interests',
+  idwrapper: 'interestswrapper',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -63,6 +65,7 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: 'purpose',
+  idwrapper: 'purposewrapper',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
