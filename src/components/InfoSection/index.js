@@ -39,7 +39,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
             <Subtitle darkText={darkText}>{description}</Subtitle>
             <BtnWrap>
               <Button to={linkRef} primary={primary ? 1 : 0} dark={dark ? 1 : 0}
-                smooth={true} duration={500} spy={true} exact="true" dark2={dark2 ? 1 : 0} target="_blank">
+                smooth={true} duration={500} exact="true" dark2={dark2 ? 1 : 0} target="_blank">
                 {buttonLabel}
               </Button>
             </BtnWrap>

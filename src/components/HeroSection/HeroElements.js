@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 // import { MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
 
+const contrastBluePurple = '#5587ee'
+
+
 export const HeroContainer = styled.div`
     height: 100vh;
     display: flex;
@@ -102,20 +105,81 @@ export const BarIcon = styled.div`
 export const HeroPhaser = styled.div`
     background: linear-gradient(to bottom, #000000, transparent), #181825;
     height: 40px;
+    z-index: -1;
 `
 
-export const CircleFollow = styled.div`
+// export const CircleFollow = styled.div`
+//   position: fixed;
+//   top: ${props => props.top}px;
+//   right: 5%;
+//   transform: translateX(-50%);
+//   width: 4px;
+//   height: 50px;
+//   background-color: white;
+//   opacity: 50%;
+//   font-weight: 600;
+//   z-index: 0;
+//   border-radius: 30px;
+// `
+
+export const FourPointedStar = styled.div`
   position: fixed;
   top: ${props => props.top}px;
-  right: 1%;
+  right: 24px;
   transform: translateX(-50%);
-  width: 50px;
+  width: 1em;
+
+  &:before {
+    content: "";
+    position: absolute;
+    background: ${contrastBluePurple};
+    width: 1em;
+    height: 1.15em;
+    transform: rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    background: ${contrastBluePurple};
+    width: 1em;
+    height: 1.15em;
+    transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+  }
+`;
+
+export const StarTail1 = styled.div`
+  position: fixed;
+  top: ${props => props.top - 35}px;
+  right: 36px;
+  width: 4px;
   height: 50px;
-  border-radius: 50%;
-  background-color: white;
-  opacity: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
+  transform: translateX(-50%);
+  opacity: 80%;
+  background-color: ${contrastBluePurple};
+  border-radius: 10px;
+`;
+
+export const StarTail2 = styled.div`
+  position: fixed;
+  top: ${props => props.top - 27}px;
+  right: 28px;
+  width: 5px;
+  height: 35px;
+  transform: translateX(-50%);
+  opacity: 80%;
+  background-color: ${contrastBluePurple};
+  border-radius: 10px;
+`;
+
+export const StarTail3 = styled.div`
+  position: fixed;
+  top: ${props => props.top - 22}px;
+  right: 43px;
+  width: 4px;
+  height: 35px;
+  transform: translateX(-50%);
+  opacity: 80%;
+  background-color: ${contrastBluePurple};
+  border-radius: 10px;
 `;

@@ -10,4 +10,6 @@ const offWhiteWhite = '#F1F1EA'
 const darkDarkPurple = '#1E052C'
 const purpleBlue = '#4A51EF'
 const skyBlue = '#AEF'
+const contrastBluePurple = '#5587ee'
+
 

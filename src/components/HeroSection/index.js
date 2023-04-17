@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Video from '../../videos/background.mp4'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, BarIcon, HeroPhaser, CircleFollow} from './HeroElements'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, BarIcon,
+    HeroPhaser, FourPointedStar, StarTail1, StarTail2, StarTail3} from './HeroElements'
 
 const HeroSection = () => {
     const [circleTop, setCircleTop] = useState(0);
@@ -17,13 +18,13 @@ const HeroSection = () => {
             var herobar = document.getElementById("herobar");
             var yPos = Math.max(0 - window.pageYOffset/9, -55);
             herocontent.style.bottom = 0 + yPos + "%";
-            var opacity = 1 - window.pageYOffset/300;
+            var opacity = 1 - window.pageYOffset/500;
             herocontent.style.color = "rgba(255, 255, 255, " + opacity + ")";
             herobar.style.backgroundColor = "rgba(255, 255, 255, " + opacity + ")";
 
             const scrollPosition = window.scrollY;
             const screenHeight = window.innerHeight;
-            const circlePosition = (scrollPosition / screenHeight) * 100;
+            const circlePosition = (scrollPosition / (screenHeight)) * 250 + 100;
             setCircleTop(circlePosition);
         }
     }
@@ -46,7 +47,8 @@ const HeroSection = () => {
         </HeroContent>
     </HeroContainer>
     <HeroPhaser />
-    <CircleFollow top={circleTop}> hi </CircleFollow>
+    <StarTail1 top={circleTop}/> <StarTail2 top={circleTop}/> <StarTail3 top={circleTop}/>
+    <FourPointedStar top={circleTop}/>
     </>
   )
 }
