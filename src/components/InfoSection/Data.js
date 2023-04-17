@@ -34,7 +34,7 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-  id: 'coffee',
+  id: 'interests',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -62,7 +62,7 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-  id: 'mywork',
+  id: 'purpose',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -80,7 +80,7 @@ export const homeObjThree = {
   buttonLabel: 'Media gallery (TBD)',
   imgStart: false,
   img: require('../../images/svg-2.svg'),
-  alt: 'Work',
+  alt: 'purpose',
   dark: true,
   primary: true,
   darkText: false,

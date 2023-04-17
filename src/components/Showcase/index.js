@@ -7,9 +7,11 @@ import IconKeyboard from '../../images/undraw_typewriter_re_u9i2.svg'
 import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard,
   ServicesIcon, ServicesH2, ServicesP } from './ShowcaseElements'
 
+// Change all css to 'showcase'
+
 const Showcase = () => {
   return (
-    <ServicesContainer id="coolthings">
+    <ServicesContainer id="showcase">
       <ServicesH1>Showcase</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>

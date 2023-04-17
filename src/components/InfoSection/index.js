@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Button } from '../ButtonElement'
 
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper,
@@ -7,6 +7,8 @@ import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper,
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
     headline, darkText, description, buttonLabel, img, alt, dark, dark2,
     primary, linkRef }) => {
+
+
   return (
     <section>
       <InfoContainer lightBg={lightBg} id={id}>

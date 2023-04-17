@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const SigninContainer = styled.div`
+export const WhatsNextContainer = styled.div`
     background: #0c0c0c;
     display: flex;
     justify-content: center;
@@ -12,10 +12,11 @@ export const SigninContainer = styled.div`
     color: #fff;
 `
 
-export const SigninWrapper = styled.div`
+export const WhatsNextWrapper = styled.div`
     background: #000022;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px 50px;
+    text-align: center;
 `

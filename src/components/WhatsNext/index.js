@@ -1,14 +1,15 @@
 import React from 'react'
-import { SigninContainer, SigninWrapper } from './WhatsNextElements'
+import { WhatsNextContainer, WhatsNextWrapper } from './WhatsNextElements'
 
 const WhatsNext = () => {
   return (
-    <SigninContainer>
-      <SigninWrapper>
+    <WhatsNextContainer>
+      <WhatsNextWrapper>
         ARE YOU READY
+        <br></br>
         This is where my what's next page will go!
-      </SigninWrapper>
-    </SigninContainer>
+      </WhatsNextWrapper>
+    </WhatsNextContainer>
   )
 }
 

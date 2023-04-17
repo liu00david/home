@@ -40,16 +40,16 @@ const Navbar = ({ toggle, ishomepage }) => {
                   about</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="coffee" smooth={true} duration={500} spy={true} exact='true' scrollNav={scrollNav}>
+                <NavLinks to="interests" smooth={true} duration={500} spy={true} exact='true' scrollNav={scrollNav}>
                   interests</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="mywork" smooth={true} duration={500} spy={true} exact='true' scrollNav={scrollNav}>
-                  plans</NavLinks>
+                <NavLinks to="purpose" smooth={true} duration={500} spy={true} exact='true' scrollNav={scrollNav}>
+                  purpose</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to="coolthings" smooth={true} duration={500} spy={true} exact='true' scrollNav={scrollNav}>
-                  create</NavLinks>
+                <NavLinks to="showcase" smooth={true} duration={500} spy={true} exact='true' scrollNav={scrollNav}>
+                  showcase</NavLinks>
               </NavItem>
             </NavMenu>
             <NavBtn>
