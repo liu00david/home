@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { Button } from '../ButtonElement'
 
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper,
@@ -8,13 +8,40 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
     headline, darkText, description, buttonLabel, img, alt, dark, dark2,
     primary, linkRef, idwrapper}) => {
 
+  const [isVisible, setIsVisible] = useState(false);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      {
+        root: null,
+        rootMargin: "0px",
+        threshold: 1,
+      }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      if (ref.current) {
+        observer.unobserve(ref.current);
+      }
+    };
+  }, []);
+
+
   return (
     <section>
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper id={idwrapper} visible={true}>
           <InfoRow imgStart={imgStart}>
             <Column1>
-            <TextWrapper>
+            <TextWrapper isVisible={isVisible} ref={ref}>
             <TopLine lightText={lightText}>{topLine}</TopLine>
             <Heading lightText={lightText}>{headline}</Heading>
             <Subtitle darkText={darkText}>{description}</Subtitle>

@@ -30,8 +30,8 @@ export const InfoWrapper = styled.div`
   margin-right: auto;
   margin-left: auto;
 
-  opacity: ${({ visible }) => (visible ? 1 : 0)};
-  transition: all 1s;
+  opacity: ${({ isVisible }) => (isVisible ? 1 : 0)};
+  transition: opacity 0.5s ease-in-out;
 
   @media screen and (max-height: 650px) {
 
