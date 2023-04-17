@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Video from '../../videos/background.mp4'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, BarIcon, HeroPhaser } from './HeroElements'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, BarIcon, HeroPhaser, CircleFollow} from './HeroElements'
 
 const HeroSection = () => {
-
+    const [circleTop, setCircleTop] = useState(0);
     useEffect(() => {
         window.addEventListener("scroll", function(){
             parallax();
@@ -20,6 +20,11 @@ const HeroSection = () => {
             var opacity = 1 - window.pageYOffset/300;
             herocontent.style.color = "rgba(255, 255, 255, " + opacity + ")";
             herobar.style.backgroundColor = "rgba(255, 255, 255, " + opacity + ")";
+
+            const scrollPosition = window.scrollY;
+            const screenHeight = window.innerHeight;
+            const circlePosition = (scrollPosition / screenHeight) * 100;
+            setCircleTop(circlePosition);
         }
     }
 
@@ -41,10 +46,9 @@ const HeroSection = () => {
         </HeroContent>
     </HeroContainer>
     <HeroPhaser />
+    <CircleFollow top={circleTop}> hi </CircleFollow>
     </>
   )
 }
-
-// {hover ? <ArrowForward /> : <ArrowRight />}
 
 export default HeroSection

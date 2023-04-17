@@ -103,3 +103,19 @@ export const HeroPhaser = styled.div`
     background: linear-gradient(to bottom, #000000, transparent), #181825;
     height: 40px;
 `
+
+export const CircleFollow = styled.div`
+  position: fixed;
+  top: ${props => props.top}px;
+  right: 1%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+`;

@@ -13,7 +13,7 @@ export const homeObjOne = {
   topLine: 'About me',
   headline: 'David Liu',
   description: <p>
-    Welcome! I've wanted to build my own website for the longest time, where I could try developing different things
+    Hi! I've wanted to build my own website for the longest time, where I could try developing different things
     and also show a little bit about myself.
     <br/><br/>
     As a short intro, I was born and raised in NYC (or rather a small suburb of it)
@@ -41,7 +41,7 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'My Interests',
-  headline: 'A large variety',
+  headline: 'A wide variety',
   description: <div>
     In tech, through my current role as a <b style={{color: darkPurple}}>Production Engineer</b> I've garnered an interest
     in automation and efficiencies, specifically on how to reduce and simplify existing systems using frameworks and AI.

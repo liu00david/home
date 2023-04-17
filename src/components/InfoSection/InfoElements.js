@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const lightPurple = '#D5CEE9'
 const darkPurple = '#330C49'
@@ -30,15 +30,6 @@ export const InfoWrapper = styled.div`
   margin-right: auto;
   margin-left: auto;
 
-  opacity: ${({ isVisible }) => (isVisible ? 1 : 0)};
-  transition: opacity 0.5s ease-in-out;
-
-  @media screen and (max-height: 650px) {
-
-  }
-  /* @media screen and (max-width: 768px) {
-    padding: 5vh 3vw;
-  } */
 `
 
 export const InfoRow = styled.div`
