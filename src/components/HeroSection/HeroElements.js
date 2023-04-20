@@ -1,8 +1,4 @@
 import styled from 'styled-components'
-// import { MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
-
-const contrastBluePurple = '#5587ee'
-
 
 export const HeroContainer = styled.div`
     height: 100vh;
@@ -75,23 +71,6 @@ export const HeroP = styled.p`
     }
 `
 
-// export const HeroBtnWrapper = styled.div`
-//     margin-top: 32px;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-// `
-
-// export const ArrowForward = styled(MdArrowForward)`
-//     margin-left: 8px;
-//     font-size: 20px;
-// `
-
-// export const ArrowRight = styled(MdKeyboardArrowRight)`
-//     margin-left: 8px;
-//     font-size: 20px;
-// `
-
 export const BarIcon = styled.div`
   position: relative;
   right: 0px;
@@ -105,81 +84,62 @@ export const BarIcon = styled.div`
 export const HeroPhaser = styled.div`
     background: linear-gradient(to bottom, #000000, transparent), #181825;
     height: 40px;
-    z-index: -1;
+    z-index: 3;
 `
 
-// export const CircleFollow = styled.div`
+// GuideFeature icon animation
+export const GuideFeature = styled.div`
+  opacity: ${props => props.opacity}%;
+  top: ${props => props.top + 2}%;
+  transform: rotate(${props => props.rotate}deg);
+  font-size: ${props => props.size}rem;
+  max-width: 50px;
+
+  left: ${props => props.left}%;
+  opacity: ${props => props.opacity}%;
+  position: fixed;
+  color: white;
+  max-height: 0px;
+  z-index: 100;
+
+
+  @media screen and (max-width: 768px) {
+    font-size: ${props => props.size/1.5}rem;
+  }
+`;
+
+// export const StarTail1 = styled.div`
 //   position: fixed;
-//   top: ${props => props.top}px;
-//   right: 5%;
-//   transform: translateX(-50%);
+//   top: ${props => props.top - 35}px;
+//   right: 36px;
 //   width: 4px;
 //   height: 50px;
-//   background-color: white;
-//   opacity: 50%;
-//   font-weight: 600;
-//   z-index: 0;
-//   border-radius: 30px;
-// `
+//   transform: translateX(-50%);
+//   opacity: 80%;
+//   background-color: ${contrastBluePurple};
+//   border-radius: 10px;
+// `;
 
-export const FourPointedStar = styled.div`
-  position: fixed;
-  top: ${props => props.top}px;
-  right: 24px;
-  transform: translateX(-50%);
-  width: 1em;
+// export const StarTail2 = styled.div`
+//   position: fixed;
+//   top: ${props => props.top - 27}px;
+//   right: 28px;
+//   width: 5px;
+//   height: 35px;
+//   transform: translateX(-50%);
+//   opacity: 80%;
+//   background-color: ${contrastBluePurple};
+//   border-radius: 10px;
+// `;
 
-  &:before {
-    content: "";
-    position: absolute;
-    background: ${contrastBluePurple};
-    width: 1em;
-    height: 1.15em;
-    transform: rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
-  }
-
-  &:after {
-    content: "";
-    position: absolute;
-    background: ${contrastBluePurple};
-    width: 1em;
-    height: 1.15em;
-    transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
-  }
-`;
-
-export const StarTail1 = styled.div`
-  position: fixed;
-  top: ${props => props.top - 35}px;
-  right: 36px;
-  width: 4px;
-  height: 50px;
-  transform: translateX(-50%);
-  opacity: 80%;
-  background-color: ${contrastBluePurple};
-  border-radius: 10px;
-`;
-
-export const StarTail2 = styled.div`
-  position: fixed;
-  top: ${props => props.top - 27}px;
-  right: 28px;
-  width: 5px;
-  height: 35px;
-  transform: translateX(-50%);
-  opacity: 80%;
-  background-color: ${contrastBluePurple};
-  border-radius: 10px;
-`;
-
-export const StarTail3 = styled.div`
-  position: fixed;
-  top: ${props => props.top - 22}px;
-  right: 43px;
-  width: 4px;
-  height: 35px;
-  transform: translateX(-50%);
-  opacity: 80%;
-  background-color: ${contrastBluePurple};
-  border-radius: 10px;
-`;
+// export const StarTail3 = styled.div`
+//   position: fixed;
+//   top: ${props => props.top - 22}px;
+//   right: 43px;
+//   width: 4px;
+//   height: 35px;
+//   transform: translateX(-50%);
+//   opacity: 80%;
+//   background-color: ${contrastBluePurple};
+//   border-radius: 10px;
+// `;
