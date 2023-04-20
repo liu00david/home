@@ -9,18 +9,18 @@ const Footer = () => {
       <FooterWrap>
         <FooterLinkItems>
           <FooterLinkTitle>Contact Me</FooterLinkTitle>
-          <FooterLink to="/signin">Email</FooterLink>
-          <FooterLink to="/signin">Linkedin</FooterLink>
-          <FooterLink to="/signin">Github</FooterLink>
-          <FooterLink to="/signin">Online</FooterLink>
+          <FooterLink onClick={() => window.location.href = 'mailto:liudavid@uchicago.edu'}>Email</FooterLink>
+          <FooterLink a href="https://www.linkedin.com/in/liu00david/">Linkedin</FooterLink>
+          <FooterLink a href="https://github.com/liu00david">Github</FooterLink>
+          <FooterLink to="/signin">Online (TBD)</FooterLink>
           </FooterLinkItems>
 
           <FooterLinkItems>
           <FooterLinkTitle>Quick Navigation</FooterLinkTitle>
-          <FooterLink to="/signin">Code Projects</FooterLink>
-          <FooterLink to="/signin">Personal Sketchpad</FooterLink>
-          <FooterLink to="/signin">Visual Gallery</FooterLink>
-          <FooterLink to="/signin">Blog</FooterLink>
+          <FooterLink to="/signin">Code Projects (TBD)</FooterLink>
+          <FooterLink to="/signin">Personal Sketchpad (TBD)</FooterLink>
+          <FooterLink to="/signin">Media Gallery (TBD)</FooterLink>
+          <FooterLink to="/signin">Blog (TBD)</FooterLink>
         </FooterLinkItems>
       </FooterWrap>
       <ImgWrap>

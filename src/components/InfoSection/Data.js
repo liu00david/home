@@ -41,7 +41,7 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'My Interests',
-  headline: 'Some of everything',
+  headline: 'A bit of everything',
   description: <div>
     In tech, through my current role as a <b style={{color: darkPurple}}>Production Engineer</b> I've garnered an interest
     in automation and efficiencies, specifically on how to reduce and simplify existing systems using frameworks and AI.
