@@ -103,15 +103,11 @@ export const GuideFeature = styled.div`
   color: white;
   max-height: 0px;
   z-index: 0;
-
-  @media screen and (max-height: 700px) {
-    top: ${props => props.top+4}%;
-  }
 `;
 
 export const GuideFeature2 = styled.div`
   opacity: ${props => props.opacity}%;
-  top: ${props => props.top}%;
+  top: ${props => props.top}vh;
   transform: rotate(${props => props.rotate}deg);
   font-size: 3.5vh;
   max-width: 50px;
@@ -121,10 +117,6 @@ export const GuideFeature2 = styled.div`
   color: white;
   max-height: 0px;
   z-index: 0;
-
-  @media screen and (max-height: 700px) {
-    top: ${props => props.top+3}%;
-  }
 `;
 
 // export const StarTail1 = styled.div`

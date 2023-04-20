@@ -48,13 +48,15 @@ export const ImgWrap = styled.div`
   display: flex;
   align-items: center;
   margin: 0 auto;
-  max-width: 450px;
+  max-width: 440px;
   color: white;
-  padding-bottom: 8.5%;
+  padding-bottom: 8vh;
+  padding-left: 20px;
+  padding-right: 20px;
 
-  @media screen and (max-width: 768px) {
+  /* @media screen and (max-width: 768px) {
     padding-bottom: 11%;
-  }
+  } */
 `
 
 export const Img = styled.img`

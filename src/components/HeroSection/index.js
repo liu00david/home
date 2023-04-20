@@ -33,7 +33,7 @@ const HeroSection = () => {
             const scrollPosition = window.scrollY;
             const screenHeight = window.innerHeight;
             const totalPageHeight = screenHeight * 5;
-            const guideFeatureYPos = Math.min(92,Math.max(44, (scrollPosition/totalPageHeight)*100));
+            const guideFeatureYPos = Math.min(88,Math.max(44, (scrollPosition/totalPageHeight)*100));
             const guideFeatureXPos = Math.cos((scrollPosition)/(screenHeight/3.2))*42 + 48;
             const guideFeatureRotation = Math.sin((scrollPosition)/(screenHeight/3.2))*80 + 135;
             const guideFeatureSize = Math.max(3.5, ( (11*scrollPosition)/(0.3*screenHeight) - (5.5*(scrollPosition**2))/(0.3*screenHeight)**2 + 2));
