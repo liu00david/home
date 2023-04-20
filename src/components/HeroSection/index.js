@@ -14,9 +14,9 @@ const HeroSection = () => {
 
     const scrollPosition = window.scrollY;
     const screenHeight = window.innerHeight;
-    const [guideFeatureTop, setGuideFeatureTop] = useState(40);
-    const [guideFeatureLeft, setGuideFeatureLeft] = useState(Math.cos((scrollPosition+200)/(screenHeight/2.5))*45 + 50);
-    const [guideFeatureRotation, setGuideFeatureRotation] = useState(Math.sin((scrollPosition+200)/(screenHeight/2.5))*80 + 135);
+    const [guideFeatureTop, setGuideFeatureTop] = useState(39);
+    const [guideFeatureLeft, setGuideFeatureLeft] = useState(42 + 48);
+    const [guideFeatureRotation, setGuideFeatureRotation] = useState(135);
     const [guideFeatureSize, setGuideFeatureSize] = useState(2);
     const [guideFeatureOpacity, setGuideFeatureOpacity] = useState(100);
 
@@ -34,12 +34,12 @@ const HeroSection = () => {
             // Update ypos of GuideFeature
             const scrollPosition = window.scrollY;
             const screenHeight = window.innerHeight;
-            const totalPageHeight = screenHeight * 4.2;
-            const guideFeatureYPos = Math.max(40, (scrollPosition/totalPageHeight)*100);
-            const guideFeatureXPos = Math.cos((scrollPosition+200)/(screenHeight/2.5))*45 + 50;
-            const guideFeatureRotation = Math.sin((scrollPosition+200)/(screenHeight/2.5))*80 + 135;
-            const guideFeatureSize = Math.max(2.0, 5 - (((scrollPosition - 350) ** 2)/40000) )
-            const guideFeatureOpacity = Math.max(60, 100 - (scrollPosition/screenHeight)*100)
+            const totalPageHeight = screenHeight * 5;
+            const guideFeatureYPos = Math.min(85,Math.max(39, (scrollPosition/totalPageHeight)*100));
+            const guideFeatureXPos = Math.cos((scrollPosition)/(screenHeight/3.2))*42 + 48;
+            const guideFeatureRotation = Math.sin((scrollPosition)/(screenHeight/3.2))*80 + 135;
+            const guideFeatureSize = Math.max(2.0, ( (6*scrollPosition)/(0.3*screenHeight) - (3*(scrollPosition**2))/(0.3*screenHeight)**2 + 2));
+            const guideFeatureOpacity = Math.max(50, 150 - (scrollPosition/screenHeight)*100);
 
             setGuideFeatureTop(guideFeatureYPos);
             setGuideFeatureLeft(guideFeatureXPos);

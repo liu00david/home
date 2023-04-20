@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
     align-items: top;
     position: relative;
 
-    z-index: 1;
+    z-index: 0;
 
     :before {
         content: '';
@@ -32,6 +32,7 @@ export const HeroBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
+    z-index: -1;
 `
 
 export const VideoBg = styled.video`
@@ -102,10 +103,10 @@ export const GuideFeature = styled.div`
   position: fixed;
   color: white;
   max-height: 0px;
-  z-index: 100;
+  z-index: 0;
 
   @media screen and (max-height: 700px) {
-    top: ${props => props.top+20}%;
+    top: ${props => props.top+4}%;
   }
 `;
 
