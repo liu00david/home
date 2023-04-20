@@ -104,6 +104,9 @@ export const GuideFeature = styled.div`
   max-height: 0px;
   z-index: 100;
 
+  @media screen and (max-height: 700px) {
+    top: ${props => props.top+20}%;
+  }
 `;
 
 // export const StarTail1 = styled.div`
