@@ -13,16 +13,16 @@ export const homeObjOne = {
   topLine: 'About me',
   headline: 'David Liu',
   description: <p>
-    Hi! I've wanted to build my own website for the longest time, where I could try developing different things
+    Hi! I've wanted to build my own website for the longest time so that I could try developing different things
     and also show a little bit about myself.
     <br/><br/>
     As a short intro, I was born and raised in NYC (or rather a small suburb of it)
     and attended the <b style={{color: lightPurple}}>University of Chicago</b>,
-    and I graduated in 2022 with a Bachelors
+    and graduated in 2022 with a Bachelors
     in Computer Science and Economics.
     <br/><br/>
     Today, I'm working remotely as a <b style={{color: lightPurple}}>Software Engineer at Yahoo</b>, while pursing some interests on the side.
-    I think it's been a pretty good time.
+    It's been a pretty good time.
   </p>,
   buttonLabel: 'Resume',
   imgStart: false,
@@ -41,16 +41,16 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'My Interests',
-  headline: 'A wide variety',
+  headline: 'Some of everything',
   description: <div>
     In tech, through my current role as a <b style={{color: darkPurple}}>Production Engineer</b> I've garnered an interest
     in automation and efficiencies, specifically on how to reduce and simplify existing systems using frameworks and AI.
     <br/><br/>
     During my free time, I can be found building mechanical keyboards, cooking using food science,
-    <b style={{color: darkPurple}}> organizing spreadsheets</b>, adventuring outdoors, tutoring, weightlifting,
+    <b style={{color: darkPurple}}> organizing spreadsheets</b>, adventuring outdoors, tutoring, working out,
     and perusing law and crime news.
     <br/><br/>
-    One of my key passions is <b style={{color: darkPurple}}>event planning</b>, whether it's for an RSO, workplace, party, or
+    One of my key passions is <b style={{color: darkPurple}}>event planning</b>, whether it's for a club, workplace, party, or
     vacation, if there's an opportunity I always try to be a part of it. I don't know why I enjoy it so much.
   </div>,
   buttonLabel: 'My spreadsheets',
@@ -72,13 +72,13 @@ export const homeObjThree = {
   topLine: 'my website',
   headline: "The purpose",
   description: <div>
-    I'm still thinking about how to organize this website, so to keep myself organized and on track,
+    This site is still in development, so to keep myself organized and on track,
     I'll be updating the features I have planned and in progress on a separate page.
-    I'm not very experienced in frontend development so this is going to be a long but fun journey.
+    I'm still getting acclimated to frontend development, so it's likely going to be a long but fun journey.
     <br/><br/>
-    I would say one factor driving my desire to develop this site is to bloom an <b style={{color: lightPurple}}>extension of myself artistically. </b>
-    Growing up, I often found myself lagging behind those who were more artistically talented than me. But I always kept
-    a <b style={{color: lightPurple}}>vivid imagination</b> to plan and create things - so here's my chance.
+    I would say one factor driving me to make this website is to grow an <b style={{color: lightPurple}}>extension of myself. </b>
+    When I was younger, I often found myself lagging behind those who were more artistically talented than me, but I always had ideas
+    to design and create things. Now I have a way to put some of those ideas into existence.
   </div>,
   buttonLabel: 'Media gallery (TBD)',
   imgStart: false,

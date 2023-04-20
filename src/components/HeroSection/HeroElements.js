@@ -95,11 +95,10 @@ export const GuideFeature = styled.div`
   opacity: ${props => props.opacity}%;
   top: ${props => props.top}%;
   transform: rotate(${props => props.rotate}deg);
-  font-size: ${props => props.size}rem;
+  font-size: ${props => props.size}vh;
   max-width: 50px;
-
   left: ${props => props.left}%;
-  opacity: ${props => props.opacity}%;
+
   position: fixed;
   color: white;
   max-height: 0px;
@@ -107,6 +106,24 @@ export const GuideFeature = styled.div`
 
   @media screen and (max-height: 700px) {
     top: ${props => props.top+4}%;
+  }
+`;
+
+export const GuideFeature2 = styled.div`
+  opacity: ${props => props.opacity}%;
+  top: ${props => props.top}%;
+  transform: rotate(${props => props.rotate}deg);
+  font-size: 3.5vh;
+  max-width: 50px;
+  left: ${props => props.left}%;
+
+  position: absolute;
+  color: white;
+  max-height: 0px;
+  z-index: 0;
+
+  @media screen and (max-height: 700px) {
+    top: ${props => props.top+3}%;
   }
 `;
 

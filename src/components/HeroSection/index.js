@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Video from '../../videos/background.mp4'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, BarIcon,
-    HeroPhaser, GuideFeature} from './HeroElements'
+    HeroPhaser, GuideFeature, GuideFeature2} from './HeroElements'
 import { GiCommercialAirplane } from "react-icons/gi";
 
 const HeroSection = () => {
@@ -12,10 +12,10 @@ const HeroSection = () => {
         return () => { window.removeEventListener("scroll", function(){ parallax(); }); };
     }, []);
 
-    const [guideFeatureTop, setGuideFeatureTop] = useState(39);
+    const [guideFeatureTop, setGuideFeatureTop] = useState(44);
     const [guideFeatureLeft, setGuideFeatureLeft] = useState(42 + 48);
     const [guideFeatureRotation, setGuideFeatureRotation] = useState(135);
-    const [guideFeatureSize, setGuideFeatureSize] = useState(2);
+    const [guideFeatureSize, setGuideFeatureSize] = useState(3.5);
     const [guideFeatureOpacity, setGuideFeatureOpacity] = useState(100);
 
     function parallax() {
@@ -33,11 +33,11 @@ const HeroSection = () => {
             const scrollPosition = window.scrollY;
             const screenHeight = window.innerHeight;
             const totalPageHeight = screenHeight * 5;
-            const guideFeatureYPos = Math.min(85,Math.max(39, (scrollPosition/totalPageHeight)*100));
+            const guideFeatureYPos = Math.min(92,Math.max(44, (scrollPosition/totalPageHeight)*100));
             const guideFeatureXPos = Math.cos((scrollPosition)/(screenHeight/3.2))*42 + 48;
             const guideFeatureRotation = Math.sin((scrollPosition)/(screenHeight/3.2))*80 + 135;
-            const guideFeatureSize = Math.max(2.0, ( (6*scrollPosition)/(0.3*screenHeight) - (3*(scrollPosition**2))/(0.3*screenHeight)**2 + 2));
-            const guideFeatureOpacity = Math.max(50, 150 - (scrollPosition/screenHeight)*100);
+            const guideFeatureSize = Math.max(3.5, ( (11*scrollPosition)/(0.3*screenHeight) - (5.5*(scrollPosition**2))/(0.3*screenHeight)**2 + 2));
+            const guideFeatureOpacity = Math.max(70, 150 - (scrollPosition/screenHeight)*100);
 
             setGuideFeatureTop(guideFeatureYPos);
             setGuideFeatureLeft(guideFeatureXPos);
@@ -64,6 +64,12 @@ const HeroSection = () => {
         <BarIcon id="herobar"/>
         </HeroContent>
     </HeroContainer>
+    <GuideFeature2 top={31} rotate={100} opacity={20} left={89}>
+        <GiCommercialAirplane/>
+    </GuideFeature2>
+    <GuideFeature2 top={38} rotate={135} opacity={50} left={90}>
+        <GiCommercialAirplane/>
+    </GuideFeature2>
     <GuideFeature top={guideFeatureTop} rotate={guideFeatureRotation}
         size={guideFeatureSize} left={guideFeatureLeft}
         opacity={guideFeatureOpacity}>

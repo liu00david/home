@@ -1,6 +1,7 @@
 import React from 'react'
 import { FooterContainer, FooterWrap,
-  FooterLinkItems, FooterLinkTitle, FooterLink } from './FooterElements'
+  FooterLinkItems, FooterLinkTitle, FooterLink, ImgWrap, Img } from './FooterElements'
+import Runway from '../../images/runway.svg'
 
 const Footer = () => {
   return (
@@ -22,6 +23,9 @@ const Footer = () => {
           <FooterLink to="/signin">Blog</FooterLink>
         </FooterLinkItems>
       </FooterWrap>
+      <ImgWrap>
+        <Img src={Runway} alt={"Runway"}/>
+      </ImgWrap>
     </FooterContainer>
   )
 }

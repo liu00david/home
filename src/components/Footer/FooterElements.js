@@ -23,7 +23,7 @@ export const FooterLinkItems = styled.div`
   flex-direction: column;
   text-align: left;
   color: #fff;
-  height: 220px;
+  height: 160px;
 `
 
 export const FooterLinkTitle = styled.h1`
@@ -42,4 +42,22 @@ export const FooterLink = styled(Link)`
     color: ${skyBlue};
     transition: 0.3s ease-out;
   };
+`
+
+export const ImgWrap = styled.div`
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 450px;
+  color: white;
+  padding-bottom: 8.5%;
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 11%;
+  }
+`
+
+export const Img = styled.img`
+  color: white;
+  width: 100%;
 `

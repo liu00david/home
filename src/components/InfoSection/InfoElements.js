@@ -117,7 +117,7 @@ export const Img = styled.img`
   text-align: right;
 
   @media screen and (max-width: 768px) {
-    width: 75%;
+    width: 60%;
   }
 `
 
