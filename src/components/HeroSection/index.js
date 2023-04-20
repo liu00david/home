@@ -12,8 +12,6 @@ const HeroSection = () => {
         return () => { window.removeEventListener("scroll", function(){ parallax(); }); };
     }, []);
 
-    const scrollPosition = window.scrollY;
-    const screenHeight = window.innerHeight;
     const [guideFeatureTop, setGuideFeatureTop] = useState(39);
     const [guideFeatureLeft, setGuideFeatureLeft] = useState(42 + 48);
     const [guideFeatureRotation, setGuideFeatureRotation] = useState(135);
