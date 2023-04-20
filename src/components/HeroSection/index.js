@@ -17,7 +17,7 @@ const HeroSection = () => {
     const [guideFeatureTop, setGuideFeatureTop] = useState(42);
     const [guideFeatureLeft, setGuideFeatureLeft] = useState(Math.cos((scrollPosition+200)/(screenHeight/2.5))*43 + 50);
     const [guideFeatureRotation, setGuideFeatureRotation] = useState(Math.sin((scrollPosition+200)/(screenHeight/2.5))*80 + 135);
-    const [guideFeatureSize, setGuideFeatureSize] = useState(4.2);
+    const [guideFeatureSize, setGuideFeatureSize] = useState(2.5);
     const [guideFeatureOpacity, setGuideFeatureOpacity] = useState(100);
 
     function parallax() {
@@ -38,8 +38,8 @@ const HeroSection = () => {
             const guideFeatureYPos = Math.max(42, (scrollPosition/totalPageHeight)*100);
             const guideFeatureXPos = Math.cos((scrollPosition+200)/(screenHeight/2.5))*43 + 50;
             const guideFeatureRotation = Math.sin((scrollPosition+200)/(screenHeight/2.5))*80 + 135;
-            const guideFeatureSize = Math.max(2.5, 4.2-(scrollPosition/totalPageHeight)*30)
-            const guideFeatureOpacity = Math.max(60, 100 - (scrollPosition/screenHeight)*100)
+            const guideFeatureSize = Math.max(2.5, 6 - (((scrollPosition - 400) ** 2)/30000) )
+            const guideFeatureOpacity = Math.max(60, 120 - (scrollPosition/screenHeight)*100)
 
             setGuideFeatureTop(guideFeatureYPos);
             setGuideFeatureLeft(guideFeatureXPos);

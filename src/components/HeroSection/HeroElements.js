@@ -45,8 +45,10 @@ export const VideoBg = styled.video`
 export const HeroContent = styled.div`
     position: relative;
     align-items: right;
-    margin-right: 18vw;
-    margin-top: 33vh;
+    top: 33%;
+    right: 18%;
+    /* margin-right: 18vw;
+    margin-top: 33vh; */
     color: #fff;
     z-index: 3;
 `
@@ -90,7 +92,7 @@ export const HeroPhaser = styled.div`
 // GuideFeature icon animation
 export const GuideFeature = styled.div`
   opacity: ${props => props.opacity}%;
-  top: ${props => props.top + 2}%;
+  top: ${props => props.top}%;
   transform: rotate(${props => props.rotate}deg);
   font-size: ${props => props.size}rem;
   max-width: 50px;
@@ -102,10 +104,6 @@ export const GuideFeature = styled.div`
   max-height: 0px;
   z-index: 100;
 
-
-  @media screen and (max-width: 768px) {
-    font-size: ${props => props.size/1.5}rem;
-  }
 `;
 
 // export const StarTail1 = styled.div`
