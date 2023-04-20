@@ -1,7 +1,10 @@
 import styled from 'styled-components'
 
+const darkBkg = '#181825';
+const offWhiteWhite = '#F1F1EA'
+
 export const WhatsNextContainer = styled.div`
-    background: #0c0c0c;
+    background: ${darkBkg};
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,11 +12,11 @@ export const WhatsNextContainer = styled.div`
     height: 100vh;
     position: relative;
     z-index: 1;
-    color: #fff;
+    color: #000;
 `
 
 export const WhatsNextWrapper = styled.div`
-    background: #000022;
+    background: ${offWhiteWhite};
     display: flex;
     justify-content: center;
     align-items: center;

@@ -8,10 +8,10 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrap>
         <FooterLinkItems>
-          <FooterLinkTitle>Contact Me</FooterLinkTitle>
+          <FooterLinkTitle>Contact</FooterLinkTitle>
           <FooterLink onClick={() => window.location.href = 'mailto:liudavid@uchicago.edu'}>Email</FooterLink>
-          <FooterLink a href="https://www.linkedin.com/in/liu00david/">Linkedin</FooterLink>
-          <FooterLink a href="https://github.com/liu00david">Github</FooterLink>
+          <FooterLink to={"https://www.linkedin.com/in/liu00david/"}>Linkedin</FooterLink>
+          <FooterLink to={"https://github.com/liu00david"}>Github</FooterLink>
           <FooterLink to="/signin">Online (TBD)</FooterLink>
           </FooterLinkItems>
 
