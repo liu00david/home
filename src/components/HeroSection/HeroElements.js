@@ -93,7 +93,7 @@ export const HeroPhaser = styled.div`
 // GuideFeature icon animation
 export const GuideFeature = styled.div`
   opacity: ${props => props.opacity}%;
-  top: ${props => props.top}%;
+  top: ${props => props.top}vh;
   transform: rotate(${props => props.rotate}deg);
   font-size: ${props => props.size}vh;
   max-width: 50px;
