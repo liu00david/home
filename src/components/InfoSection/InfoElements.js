@@ -17,7 +17,7 @@ export const InfoContainer = styled.div`
     height: 110vh;
   }
 
-  @media screen and (max-height: 750px) {
+  @media screen and (max-height: 900px) {
     height: 130vh;
   }
 

@@ -83,7 +83,7 @@ export const ServicesIcon = styled.img`
     max-width: 10vh;
   } */
 
-  @media screen and (max-height: 800px) {
+  @media screen and (max-height: 650px) {
     max-height: 7vh;
   }
 
@@ -94,22 +94,22 @@ export const ServicesIcon = styled.img`
 `
 
 export const ServicesH1 = styled.h1`
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fff;
   padding-bottom: 5vh;
   font-weight: 600;
 
   @media screen and (max-width: 768px){
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `
 
 export const ServicesH2 = styled.h2`
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding-bottom: 1vh;
   margin-top: 20px;
   @media screen and (max-width: 480px) {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 `
 
@@ -118,11 +118,11 @@ export const ServicesP = styled.p`
   text-align: center;
   padding: 0 10px;
 
-  @media screen and (max-height: 800px) {
-    font-size: 0.8rem;
+  @media screen and (max-height: 1000px) {
+    font-size: 0.7rem;
   }
 
   @media screen and (max-width: 480px) {
-    font-size: 0.65rem;
+    font-size: 0.60rem;
   }
 `
