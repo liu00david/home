@@ -32,7 +32,8 @@ const HeroSection = () => {
             // Update ypos of GuideFeature
             const scrollPosition = window.scrollY;
             const screenHeight = window.innerHeight;
-            const totalPageHeight = screenHeight * 5;
+            // Change this for how many pages there are.
+            const totalPageHeight = screenHeight * 4;
             const guideFeatureYPos = Math.min(88,Math.max(44, (scrollPosition/totalPageHeight)*100));
             const guideFeatureXPos = Math.cos((scrollPosition)/(screenHeight/3.2))*42 + 48;
             const guideFeatureRotation = Math.sin((scrollPosition)/(screenHeight/3.2))*80 + 135;

@@ -13,8 +13,8 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
 
   const fade = useSpring({
     opacity: isVisible ? 1 : 0,
-    transform: isVisible ? 'translateY(0%)' : 'translateY(10%)',
-    config: { duration: 1250 },
+    transform: isVisible ? 'translateY(0%)' : 'translateY(6%)',
+    config: { duration: 750 },
   });
 
   const handleScroll = () => {

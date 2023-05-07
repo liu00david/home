@@ -53,7 +53,7 @@ const Navbar = ({ toggle, ishomepage }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink scrollNav={scrollNav} to="/signin" >what's next</NavBtnLink>
+              <NavBtnLink scrollNav={scrollNav} to="/whatsnext" >what's next</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
