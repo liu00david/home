@@ -47,10 +47,6 @@ const Navbar = ({ toggle, ishomepage }) => {
                 <NavLinks to="purpose" smooth={true} duration={500} spy={true} exact='true' scrollNav={scrollNav}>
                   purpose</NavLinks>
               </NavItem>
-              <NavItem>
-                <NavLinks to="showcase" smooth={true} duration={500} spy={true} exact='true' scrollNav={scrollNav}>
-                  showcase</NavLinks>
-              </NavItem>
             </NavMenu>
             <NavBtn>
               <NavBtnLink scrollNav={scrollNav} to="/signin" >what's next</NavBtnLink>
