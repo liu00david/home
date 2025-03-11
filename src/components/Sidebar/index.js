@@ -16,7 +16,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
             <SidebarLink to="interests" onClick={toggle}>Interests</SidebarLink>
             <SidebarLink to="purpose" onClick={toggle}>Purpose</SidebarLink>
-            <SidebarLink to="showcase" onClick={toggle}>Showcase</SidebarLink>
+            {/* <SidebarLink to="showcase" onClick={toggle}>Showcase</SidebarLink> */}
           </SidebarMenu>
           <SideBtnWrap>
             <SidebarRoute to="/signin">TBD</SidebarRoute>

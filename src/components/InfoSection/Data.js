@@ -13,16 +13,13 @@ export const homeObjOne = {
   topLine: 'About me',
   headline: 'David Liu',
   description: <p>
-    Hi! I've wanted to build my own website for the longest time so that I could try developing different things
-    and also show a little bit about myself.
+    Welcome to my site, where I share a bit about myself and my interests.
+    I was born and raised in NYC, and studied at the <b style={{color: lightPurple}}>University of Chicago</b> where I graduated with a Bachelors in Computer Science and Economics.
+    I'm a current <b style={{color: lightPurple}}>Software Engineer at Coinbase</b> on the Backend Platform Team, and previously I worked at <b style={{color: lightPurple}}>Yahoo</b>.
     <br/><br/>
-    As a short intro, I was born and raised in NYC (or rather a small suburb of it)
-    and attended the <b style={{color: lightPurple}}>University of Chicago</b>,
-    and graduated in 2022 with a Bachelors
-    in Computer Science and Economics.
+    I'm currently based out of NYC, and during my free time I like learning about traveling, cooking, personal finance, cryptocurrency, and in general more about the world.
     <br/><br/>
-    Today, I'm working remotely as a <b style={{color: lightPurple}}>Software Engineer at Yahoo</b>, while pursing some interests on the side.
-    It's been a pretty good time.
+
   </p>,
   buttonLabel: 'Resume',
   imgStart: false,
@@ -31,7 +28,7 @@ export const homeObjOne = {
   dark: true,
   primary: true,
   darkText: false,
-  linkRef: "https://drive.google.com/file/d/1JJm_IAwIkRtoLOoDq6NWhVFz6OOE8Tpv/preview"
+  linkRef: "https://drive.google.com/file/d/1dsWKTMHRMgQRi9jqWuy9bnCj1qekuxNp/view?usp=sharing"
 }
 
 export const homeObjTwo = {
@@ -41,17 +38,19 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: false,
   topLine: 'My Interests',
-  headline: 'A bit of everything',
+  headline: 'A passion to explore',
   description: <div>
-    In tech, through my current role as a <b style={{color: darkPurple}}>Production Engineer</b> I've garnered an interest
-    in automation and efficiencies, specifically on how to reduce and simplify existing systems using frameworks and AI.
+    For work, as an experienced <b style={{color: darkPurple}}>Cloud Engineer</b> I've garnered an interest
+    in building reliable and efficient applications in the cloud, mainly on AWS and GCP. A recent key project I led involved migrating
+    Yahoo location services to a microservices and Kubernetes based architecture, and building thorough CI/CD and observability tools.
+    At a company that deals with confidential user data, I also have experience in building secure and compliant systems, and how
+    to leverage IaC (Infrastructure as Code) to do so across any environment.
     <br/><br/>
-    During my free time, I can be found building mechanical keyboards, cooking using food science,
-    <b style={{color: darkPurple}}> organizing spreadsheets</b>, adventuring outdoors, tutoring, working out,
-    and perusing law and crime news.
+    During my free time, I spend a lot of time learning how to be financially savvy, through investing, budgeting, or finding ways to save on purchases.
+    I believe small steps in learning how to spend and save money can have a large impact on one's life. Some things I've learned include how to find
+    the best price for everyday goods, manage credit cards efficiently, get maximum value out of a vacation, and various investment methods.
     <br/><br/>
-    One of my key passions is <b style={{color: darkPurple}}>event planning</b>, whether it's for a club, workplace, party, or
-    vacation, if there's an opportunity I always try to be a part of it. I don't know why I enjoy it so much.
+    In a similar vein, I have a passion for event planning, whether it's for a vacation, gathering, party, work event - if there's an opportunity open I try to be a part of it.
   </div>,
   buttonLabel: 'My spreadsheets',
   imgStart: true,
@@ -72,20 +71,19 @@ export const homeObjThree = {
   topLine: 'my website',
   headline: "The purpose",
   description: <div>
-    This site is still in development, so to keep myself organized and on track,
-    I'll be updating the features I have planned and in progress on a separate page.
-    I'm still getting acclimated to frontend development, so it's likely going to be a long but fun journey.
+    I think as an engineer, sometimes it can be hard to find a creative outlet. I want to use this site to share some of what I do outside of work,
+    and to provide updates for what I am doing as I progress in my career and life. One update I've recently made is starting my Instagram page
+    to document some of my travels and experiences, including a video journal with friends.
     <br/><br/>
-    I would say one factor driving me to make this website is to grow an <b style={{color: lightPurple}}>extension of myself. </b>
-    When I was younger, I often found myself lagging behind those who were more artistically talented than me, but I always had ideas
-    to design and create things. Now I have a way to put some of those ideas into existence.
+    There's so much left for me to see and do in this world, and sometimes it's helpful to revisit this site to see how I've changed in this long and uncertain journey.
+
   </div>,
-  buttonLabel: 'Media gallery (TBD)',
+  buttonLabel: 'Instagram',
   imgStart: false,
   img: require('../../images/svg-2.svg'),
-  alt: 'purpose',
+  alt: 'instagram',
   dark: true,
   primary: true,
   darkText: false,
-  linkRef: "https://docs.google.com/document/d/1Ovf_qBS0vfUTw018aqn4eoGpA8Z6baGgKkxfF8MN8Ts/edit?usp=sharing"
+  linkRef: "https://www.instagram.com/finding.david/"
 }
